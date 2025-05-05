@@ -20,6 +20,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\..\Core\JobEntry.Application\JobEntry.Application.csproj" />
       <ProjectReference Include="..\..\Core\JobEntry.Domain\JobEntry.Domain.csproj" />
     </ItemGroup>
 

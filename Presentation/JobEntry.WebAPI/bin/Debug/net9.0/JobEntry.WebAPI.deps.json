@@ -1459,6 +1459,7 @@
       },
       "JobEntry.Application/1.0.0": {
         "dependencies": {
+          "JobEntry.Domain": "1.0.0",
           "MediatR": "12.5.0",
           "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4"
@@ -1480,6 +1481,7 @@
       },
       "JobEntry.Persistance/1.0.0": {
         "dependencies": {
+          "JobEntry.Application": "1.0.0",
           "JobEntry.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4"

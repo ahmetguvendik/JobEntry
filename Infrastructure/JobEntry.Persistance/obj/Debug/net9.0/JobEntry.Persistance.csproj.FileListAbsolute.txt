@@ -15,3 +15,5 @@
 /Users/ahmetguvendik/Desktop/Project/JobEntry/Infrastructure/JobEntry.Persistance/obj/Debug/net9.0/JobEntry.Persistance.pdb
 /Users/ahmetguvendik/Desktop/Project/JobEntry/Infrastructure/JobEntry.Persistance/obj/Debug/net9.0/JobEntry.Persistance.genruntimeconfig.cache
 /Users/ahmetguvendik/Desktop/Project/JobEntry/Infrastructure/JobEntry.Persistance/obj/Debug/net9.0/ref/JobEntry.Persistance.dll
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Infrastructure/JobEntry.Persistance/bin/Debug/net9.0/JobEntry.Application.dll
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Infrastructure/JobEntry.Persistance/bin/Debug/net9.0/JobEntry.Application.pdb

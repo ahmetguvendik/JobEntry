@@ -1,4 +1,6 @@
+using JobEntry.Application.Repositories;
 using JobEntry.Persistance.Contexts;
+using JobEntry.Persistance.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -12,5 +14,6 @@ public static class ServiceRegistration
             opt.UseNpgsql("User ID=postgres;Password=testtest;Host=localhost;Port=5432;Database=JobEntryDb;"));
         AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
         
+        collection.AddScoped(typeof(IRepository<>), typeof(Repository<>));
     }
 }

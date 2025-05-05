@@ -12,4 +12,8 @@
       <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.4" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\JobEntry.Domain\JobEntry.Domain.csproj" />
+    </ItemGroup>
+
 </Project>

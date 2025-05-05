@@ -25,7 +25,11 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/ahmetguvendik/Desktop/Project/JobEntry/Core/JobEntry.Domain/JobEntry.Domain.csproj": {
+                "projectPath": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Core/JobEntry.Domain/JobEntry.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -158,6 +162,9 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "/Users/ahmetguvendik/Desktop/Project/JobEntry/Core/JobEntry.Application/JobEntry.Application.csproj": {
+                "projectPath": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Core/JobEntry.Application/JobEntry.Application.csproj"
+              },
               "/Users/ahmetguvendik/Desktop/Project/JobEntry/Core/JobEntry.Domain/JobEntry.Domain.csproj": {
                 "projectPath": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Core/JobEntry.Domain/JobEntry.Domain.csproj"
               }
