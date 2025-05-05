@@ -1,0 +1,17 @@
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Infrastructure/JobEntry.Persistance/bin/Debug/net9.0/JobEntry.Persistance.deps.json
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Infrastructure/JobEntry.Persistance/bin/Debug/net9.0/JobEntry.Persistance.runtimeconfig.json
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Infrastructure/JobEntry.Persistance/bin/Debug/net9.0/JobEntry.Persistance.dll
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Infrastructure/JobEntry.Persistance/bin/Debug/net9.0/JobEntry.Persistance.pdb
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Infrastructure/JobEntry.Persistance/bin/Debug/net9.0/JobEntry.Domain.dll
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Infrastructure/JobEntry.Persistance/bin/Debug/net9.0/JobEntry.Domain.pdb
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Infrastructure/JobEntry.Persistance/obj/Debug/net9.0/JobEntry.Persistance.csproj.AssemblyReference.cache
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Infrastructure/JobEntry.Persistance/obj/Debug/net9.0/JobEntry.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Infrastructure/JobEntry.Persistance/obj/Debug/net9.0/JobEntry.Persistance.AssemblyInfoInputs.cache
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Infrastructure/JobEntry.Persistance/obj/Debug/net9.0/JobEntry.Persistance.AssemblyInfo.cs
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Infrastructure/JobEntry.Persistance/obj/Debug/net9.0/JobEntry.Persistance.csproj.CoreCompileInputs.cache
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Infrastructure/JobEntry.Persistance/obj/Debug/net9.0/JobEntry.9B8C88AF.Up2Date
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Infrastructure/JobEntry.Persistance/obj/Debug/net9.0/JobEntry.Persistance.dll
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Infrastructure/JobEntry.Persistance/obj/Debug/net9.0/refint/JobEntry.Persistance.dll
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Infrastructure/JobEntry.Persistance/obj/Debug/net9.0/JobEntry.Persistance.pdb
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Infrastructure/JobEntry.Persistance/obj/Debug/net9.0/JobEntry.Persistance.genruntimeconfig.cache
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Infrastructure/JobEntry.Persistance/obj/Debug/net9.0/ref/JobEntry.Persistance.dll

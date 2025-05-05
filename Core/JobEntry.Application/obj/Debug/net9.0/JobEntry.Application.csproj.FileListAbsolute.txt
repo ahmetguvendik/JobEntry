@@ -9,3 +9,4 @@
 /Users/ahmetguvendik/Desktop/Project/JobEntry/Core/JobEntry.Application/obj/Debug/net9.0/refint/JobEntry.Application.dll
 /Users/ahmetguvendik/Desktop/Project/JobEntry/Core/JobEntry.Application/obj/Debug/net9.0/JobEntry.Application.pdb
 /Users/ahmetguvendik/Desktop/Project/JobEntry/Core/JobEntry.Application/obj/Debug/net9.0/ref/JobEntry.Application.dll
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Core/JobEntry.Application/obj/Debug/net9.0/JobEntry.Application.csproj.AssemblyReference.cache
