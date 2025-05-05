@@ -1,0 +1,801 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/obj/Debug/net9.0/scopedcss/projectbundle/JobEntry.Frontend.bundle.scp.css",
+      "PackagePath": "staticwebassets/JobEntry.Frontend.t1ikjk9zt2.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/404.html",
+      "PackagePath": "staticwebassets/job-portal-website-template/404.html"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/LICENSE.txt",
+      "PackagePath": "staticwebassets/job-portal-website-template/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/READ-ME.txt",
+      "PackagePath": "staticwebassets/job-portal-website-template/READ-ME.txt"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/about.html",
+      "PackagePath": "staticwebassets/job-portal-website-template/about.html"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/category.html",
+      "PackagePath": "staticwebassets/job-portal-website-template/category.html"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/contact.html",
+      "PackagePath": "staticwebassets/job-portal-website-template/contact.html"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/job-portal-website-template/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/css/style.css",
+      "PackagePath": "staticwebassets/job-portal-website-template/css/style.css"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/img/about-1.jpg",
+      "PackagePath": "staticwebassets/job-portal-website-template/img/about-1.jpg"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/img/about-2.jpg",
+      "PackagePath": "staticwebassets/job-portal-website-template/img/about-2.jpg"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/img/about-3.jpg",
+      "PackagePath": "staticwebassets/job-portal-website-template/img/about-3.jpg"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/img/about-4.jpg",
+      "PackagePath": "staticwebassets/job-portal-website-template/img/about-4.jpg"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/img/carousel-1.jpg",
+      "PackagePath": "staticwebassets/job-portal-website-template/img/carousel-1.jpg"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/img/carousel-2.jpg",
+      "PackagePath": "staticwebassets/job-portal-website-template/img/carousel-2.jpg"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/img/com-logo-1.jpg",
+      "PackagePath": "staticwebassets/job-portal-website-template/img/com-logo-1.jpg"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/img/com-logo-2.jpg",
+      "PackagePath": "staticwebassets/job-portal-website-template/img/com-logo-2.jpg"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/img/com-logo-3.jpg",
+      "PackagePath": "staticwebassets/job-portal-website-template/img/com-logo-3.jpg"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/img/com-logo-4.jpg",
+      "PackagePath": "staticwebassets/job-portal-website-template/img/com-logo-4.jpg"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/img/com-logo-5.jpg",
+      "PackagePath": "staticwebassets/job-portal-website-template/img/com-logo-5.jpg"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/img/testimonial-1.jpg",
+      "PackagePath": "staticwebassets/job-portal-website-template/img/testimonial-1.jpg"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/img/testimonial-2.jpg",
+      "PackagePath": "staticwebassets/job-portal-website-template/img/testimonial-2.jpg"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/img/testimonial-3.jpg",
+      "PackagePath": "staticwebassets/job-portal-website-template/img/testimonial-3.jpg"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/img/testimonial-4.jpg",
+      "PackagePath": "staticwebassets/job-portal-website-template/img/testimonial-4.jpg"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/index.html",
+      "PackagePath": "staticwebassets/job-portal-website-template/index.html"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/job-detail.html",
+      "PackagePath": "staticwebassets/job-portal-website-template/job-detail.html"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/job-list.html",
+      "PackagePath": "staticwebassets/job-portal-website-template/job-list.html"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/job-portal-website-template.jpg",
+      "PackagePath": "staticwebassets/job-portal-website-template/job-portal-website-template.jpg"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/js/main.js",
+      "PackagePath": "staticwebassets/job-portal-website-template/js/main.js"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/lib/animate/animate.css",
+      "PackagePath": "staticwebassets/job-portal-website-template/lib/animate/animate.css"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/lib/animate/animate.min.css",
+      "PackagePath": "staticwebassets/job-portal-website-template/lib/animate/animate.min.css"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/lib/easing/easing.js",
+      "PackagePath": "staticwebassets/job-portal-website-template/lib/easing/easing.js"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/lib/easing/easing.min.js",
+      "PackagePath": "staticwebassets/job-portal-website-template/lib/easing/easing.min.js"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/lib/owlcarousel/LICENSE",
+      "PackagePath": "staticwebassets/job-portal-website-template/lib/owlcarousel"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/lib/owlcarousel/assets/ajax-loader.gif",
+      "PackagePath": "staticwebassets/job-portal-website-template/lib/owlcarousel/assets/ajax-loader.gif"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/lib/owlcarousel/assets/owl.carousel.css",
+      "PackagePath": "staticwebassets/job-portal-website-template/lib/owlcarousel/assets/owl.carousel.css"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/lib/owlcarousel/assets/owl.carousel.min.css",
+      "PackagePath": "staticwebassets/job-portal-website-template/lib/owlcarousel/assets/owl.carousel.min.css"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/lib/owlcarousel/assets/owl.theme.default.css",
+      "PackagePath": "staticwebassets/job-portal-website-template/lib/owlcarousel/assets/owl.theme.default.css"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/lib/owlcarousel/assets/owl.theme.default.min.css",
+      "PackagePath": "staticwebassets/job-portal-website-template/lib/owlcarousel/assets/owl.theme.default.min.css"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/lib/owlcarousel/assets/owl.theme.green.css",
+      "PackagePath": "staticwebassets/job-portal-website-template/lib/owlcarousel/assets/owl.theme.green.css"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/lib/owlcarousel/assets/owl.theme.green.min.css",
+      "PackagePath": "staticwebassets/job-portal-website-template/lib/owlcarousel/assets/owl.theme.green.min.css"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/lib/owlcarousel/assets/owl.video.play.png",
+      "PackagePath": "staticwebassets/job-portal-website-template/lib/owlcarousel/assets/owl.video.play.png"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/lib/owlcarousel/owl.carousel.js",
+      "PackagePath": "staticwebassets/job-portal-website-template/lib/owlcarousel/owl.carousel.js"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/lib/owlcarousel/owl.carousel.min.js",
+      "PackagePath": "staticwebassets/job-portal-website-template/lib/owlcarousel/owl.carousel.min.js"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/lib/waypoints/links.php",
+      "PackagePath": "staticwebassets/job-portal-website-template/lib/waypoints/links.php"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/lib/waypoints/waypoints.min.js",
+      "PackagePath": "staticwebassets/job-portal-website-template/lib/waypoints/waypoints.min.js"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/lib/wow/wow.js",
+      "PackagePath": "staticwebassets/job-portal-website-template/lib/wow/wow.js"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/lib/wow/wow.min.js",
+      "PackagePath": "staticwebassets/job-portal-website-template/lib/wow/wow.min.js"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/_accordion.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/_accordion.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/_alert.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/_alert.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/_badge.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/_badge.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/_breadcrumb.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/_breadcrumb.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/_button-group.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/_button-group.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/_buttons.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/_buttons.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/_card.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/_card.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/_carousel.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/_carousel.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/_close.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/_close.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/_containers.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/_containers.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/_dropdown.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/_dropdown.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/_forms.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/_forms.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/_functions.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/_functions.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/_grid.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/_grid.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/_helpers.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/_helpers.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/_images.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/_images.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/_list-group.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/_list-group.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/_mixins.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/_mixins.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/_modal.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/_modal.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/_nav.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/_nav.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/_navbar.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/_navbar.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/_offcanvas.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/_offcanvas.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/_pagination.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/_pagination.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/_popover.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/_popover.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/_progress.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/_progress.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/_reboot.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/_reboot.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/_root.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/_root.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/_spinners.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/_spinners.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/_tables.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/_tables.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/_toasts.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/_toasts.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/_tooltip.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/_tooltip.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/_transitions.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/_transitions.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/_type.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/_type.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/_utilities.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/_utilities.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/_variables.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/_variables.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/bootstrap-grid.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/bootstrap-grid.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/bootstrap-reboot.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/bootstrap-utilities.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/bootstrap.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/bootstrap.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/forms/_floating-labels.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/forms/_floating-labels.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/forms/_form-check.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/forms/_form-check.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/forms/_form-control.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/forms/_form-control.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/forms/_form-range.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/forms/_form-range.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/forms/_form-select.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/forms/_form-select.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/forms/_form-text.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/forms/_form-text.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/forms/_input-group.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/forms/_input-group.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/forms/_labels.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/forms/_labels.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/forms/_validation.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/forms/_validation.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/helpers/_clearfix.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/helpers/_clearfix.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/helpers/_colored-links.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/helpers/_colored-links.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/helpers/_position.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/helpers/_position.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/helpers/_ratio.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/helpers/_ratio.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/helpers/_stretched-link.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/helpers/_stretched-link.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/helpers/_text-truncation.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/helpers/_text-truncation.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/helpers/_visually-hidden.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/helpers/_visually-hidden.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/mixins/_alert.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/mixins/_alert.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/mixins/_border-radius.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/mixins/_border-radius.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/mixins/_box-shadow.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/mixins/_box-shadow.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/mixins/_breakpoints.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/mixins/_breakpoints.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/mixins/_buttons.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/mixins/_buttons.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/mixins/_caret.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/mixins/_caret.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/mixins/_clearfix.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/mixins/_clearfix.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/mixins/_color-scheme.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/mixins/_color-scheme.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/mixins/_container.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/mixins/_container.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/mixins/_deprecate.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/mixins/_deprecate.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/mixins/_forms.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/mixins/_forms.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/mixins/_gradients.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/mixins/_gradients.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/mixins/_grid.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/mixins/_grid.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/mixins/_image.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/mixins/_image.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/mixins/_list-group.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/mixins/_list-group.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/mixins/_lists.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/mixins/_lists.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/mixins/_pagination.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/mixins/_pagination.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/mixins/_reset-text.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/mixins/_reset-text.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/mixins/_resize.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/mixins/_resize.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/mixins/_table-variants.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/mixins/_table-variants.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/mixins/_text-truncate.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/mixins/_text-truncate.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/mixins/_transition.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/mixins/_transition.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/mixins/_utilities.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/mixins/_utilities.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/mixins/_visually-hidden.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/mixins/_visually-hidden.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/utilities/_api.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/utilities/_api.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/scss/bootstrap/scss/vendor/_rfs.scss",
+      "PackagePath": "staticwebassets/job-portal-website-template/scss/bootstrap/scss/vendor/_rfs.scss"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/job-portal-website-template/testimonial.html",
+      "PackagePath": "staticwebassets/job-portal-website-template/testimonial.html"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/jquery/dist/jquery.slim.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.js"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/jquery/dist/jquery.slim.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.min.js"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/wwwroot/lib/jquery/dist/jquery.slim.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.min.map"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.JobEntry.Frontend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.JobEntry.Frontend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.JobEntry.Frontend.props",
+      "PackagePath": "build\\JobEntry.Frontend.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.JobEntry.Frontend.props",
+      "PackagePath": "buildMultiTargeting\\JobEntry.Frontend.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.JobEntry.Frontend.props",
+      "PackagePath": "buildTransitive\\JobEntry.Frontend.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

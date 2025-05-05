@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "+qa+Vb+Em70QuHAgeb6XCrYyKSoeQDf/JiRr2kVs5cQ=",
+  "Source": "JobEntry.WebAPI",
+  "BasePath": "_content/JobEntry.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

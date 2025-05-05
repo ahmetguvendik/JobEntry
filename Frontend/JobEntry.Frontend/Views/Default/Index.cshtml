@@ -1,0 +1,44 @@
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+@await Component.InvokeAsync("_HeadUILayoutComponentPartial")
+
+<body>
+<div class="container-xxl bg-white p-0">
+   
+    @await Component.InvokeAsync("_SpinnerUILayoutComponentPartial")
+    
+    @await Component.InvokeAsync("_NavbarUILayoutComponentPartial") 
+
+    @await Component.InvokeAsync("_CarauselUILayoutComponentPartial") 
+    
+    @await Component.InvokeAsync("_SearchDefaultComponentPartial") 
+    
+    
+    @await Component.InvokeAsync("_CategoryDefaultComponentPartial")    
+    
+    @await Component.InvokeAsync("_AboutDefaultUILayoutComponentPartial")       
+    
+    @await Component.InvokeAsync("_JobsDefaultUILayoutComponentPartial")     
+    
+    @await Component.InvokeAsync("_TestimonialDefaultComponentPartial")     
+    
+    
+    @await Component.InvokeAsync("_FooterUILayoutComponentPartial") 
+    
+
+    
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+</div>
+
+@await Component.InvokeAsync("_ScriptUILayoutComponentPartial") 
+
+</body>
+
+</html>

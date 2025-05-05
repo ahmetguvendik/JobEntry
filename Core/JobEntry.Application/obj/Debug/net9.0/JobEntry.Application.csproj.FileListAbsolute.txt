@@ -1,0 +1,11 @@
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Core/JobEntry.Application/bin/Debug/net9.0/JobEntry.Application.deps.json
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Core/JobEntry.Application/bin/Debug/net9.0/JobEntry.Application.dll
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Core/JobEntry.Application/bin/Debug/net9.0/JobEntry.Application.pdb
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Core/JobEntry.Application/obj/Debug/net9.0/JobEntry.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Core/JobEntry.Application/obj/Debug/net9.0/JobEntry.Application.AssemblyInfoInputs.cache
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Core/JobEntry.Application/obj/Debug/net9.0/JobEntry.Application.AssemblyInfo.cs
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Core/JobEntry.Application/obj/Debug/net9.0/JobEntry.Application.csproj.CoreCompileInputs.cache
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Core/JobEntry.Application/obj/Debug/net9.0/JobEntry.Application.dll
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Core/JobEntry.Application/obj/Debug/net9.0/refint/JobEntry.Application.dll
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Core/JobEntry.Application/obj/Debug/net9.0/JobEntry.Application.pdb
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Core/JobEntry.Application/obj/Debug/net9.0/ref/JobEntry.Application.dll
