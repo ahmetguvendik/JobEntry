@@ -1,0 +1,9 @@
+using JobEntry.Application.Features.CQRS.Results.JobResults;
+using MediatR;
+
+namespace JobEntry.Application.Features.CQRS.Queries.JobQueries;
+ 
+public class GetJobQuery : IRequest<List<GetJobQueryResult>>
+{
+    
+}
