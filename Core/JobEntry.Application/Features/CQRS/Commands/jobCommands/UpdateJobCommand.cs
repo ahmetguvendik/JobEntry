@@ -14,4 +14,5 @@ public class UpdateJobCommand : IRequest
     public string JobTypeId { get; set; }
     public string JobStyleId { get; set; }
     public string Salary { get; set; }
+    public string CategoryId { get; set; }
 }

@@ -27,6 +27,7 @@ public class CreateJobCommandHandler : IRequestHandler<CreateJobCommand>
         job.PublishedTime = DateTime.Now;
         job.JobTypeId = request.JobTypeId;
         job.LocationId = request.LocationId;
+        job.CategoryId = request.CategoryId;
         await _repository.CreateAsync(job);
         await _repository.SaveChangesAsync();
 

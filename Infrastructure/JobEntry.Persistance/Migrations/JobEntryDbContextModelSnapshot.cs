@@ -62,6 +62,24 @@ namespace JobEntry.Persistance.Migrations
                     b.ToTable("Banners");
                 });
 
+            modelBuilder.Entity("JobEntry.Domain.Entities.Category", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("text");
+
+                    b.Property<string>("IconURL")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Categories");
+                });
+
             modelBuilder.Entity("JobEntry.Domain.Entities.Company", b =>
                 {
                     b.Property<string>("Id")
@@ -111,6 +129,10 @@ namespace JobEntry.Persistance.Migrations
                     b.Property<string>("Id")
                         .HasColumnType("text");
 
+                    b.Property<string>("CategoryId")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<string>("CompanyId")
                         .IsRequired()
                         .HasColumnType("text");
@@ -146,6 +168,8 @@ namespace JobEntry.Persistance.Migrations
                         .HasColumnType("text");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("CategoryId");
 
                     b.HasIndex("CompanyId");
 
@@ -228,6 +252,12 @@ namespace JobEntry.Persistance.Migrations
 
             modelBuilder.Entity("JobEntry.Domain.Entities.Job", b =>
                 {
+                    b.HasOne("JobEntry.Domain.Entities.Category", "Category")
+                        .WithMany("Jobs")
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("JobEntry.Domain.Entities.Company", "Company")
                         .WithMany("Jobs")
                         .HasForeignKey("CompanyId")
@@ -252,6 +282,8 @@ namespace JobEntry.Persistance.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.Navigation("Category");
+
                     b.Navigation("Company");
 
                     b.Navigation("JobStyle");
@@ -259,6 +291,11 @@ namespace JobEntry.Persistance.Migrations
                     b.Navigation("JobType");
 
                     b.Navigation("Location");
+                });
+
+            modelBuilder.Entity("JobEntry.Domain.Entities.Category", b =>
+                {
+                    b.Navigation("Jobs");
                 });
 
             modelBuilder.Entity("JobEntry.Domain.Entities.Company", b =>

@@ -24,6 +24,7 @@ public class UpdateJobCommandHandler : IRequestHandler<UpdateJobCommand>
         value.PublishedTime = request.PublishedTime;
         value.EndTime = request.EndTime;
         value.JobStyleId = request.JobStyleId;
+        value.CategoryId = request.CategoryId;
         await _repository.UpdateAsync(value);
         await _repository.SaveChangesAsync();
     }

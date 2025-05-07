@@ -15,5 +15,7 @@ public static class ServiceRegistration
         AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
         
         collection.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+        collection.AddScoped(typeof(IJobRepository), typeof(JobRepository));
+        
     }
 }

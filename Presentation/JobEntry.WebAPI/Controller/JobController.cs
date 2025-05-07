@@ -31,6 +31,14 @@ public class JobController : Microsoft.AspNetCore.Mvc.Controller
         var value = await _mediator.Send(new GetJobByIdQuery(id));
         return Ok(value);
     }
+    
+    [HttpGet("Get5Job")]
+    public async Task<IActionResult> Get5Job()
+    {
+        var value = await _mediator.Send(new Get5JobWithPropertyQuery());
+        return Ok(value);
+    }
+
 
     
     // POST api/values

@@ -15,6 +15,8 @@ public class Job : BaseEntity
     public string JobStyleId { get; set; }
     public JobStyle JobStyle { get; set; }
     public string Salary { get; set; }
+    public Category Category { get; set; }
+    public string CategoryId { get; set; }
     
     
 }

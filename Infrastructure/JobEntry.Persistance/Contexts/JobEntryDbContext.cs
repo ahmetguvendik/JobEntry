@@ -17,4 +17,5 @@ public class JobEntryDbContext: DbContext
     public DbSet<JobType> JobTypes { get; set; }
     public DbSet<Location> Locations { get; set; }
     public DbSet<Testimonial> Testimonials { get; set; }
+    public DbSet<Category> Categories { get; set; } 
 }

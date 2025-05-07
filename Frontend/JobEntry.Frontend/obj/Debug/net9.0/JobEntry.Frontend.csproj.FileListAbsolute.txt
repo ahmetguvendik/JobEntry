@@ -123,3 +123,8 @@
 /Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/obj/Debug/net9.0/JobEntry.Frontend.genruntimeconfig.cache
 /Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/obj/Debug/net9.0/ref/JobEntry.Frontend.dll
 /Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/obj/Debug/net9.0/compressed/8npypib8bt-i1gf87qb6p.gz
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/bin/Debug/net9.0/Newtonsoft.Json.dll
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/bin/Debug/net9.0/JobEntry.DTO.dll
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/bin/Debug/net9.0/JobEntry.DTO.pdb
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/obj/Debug/net9.0/JobEntry.Frontend.csproj.AssemblyReference.cache
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/obj/Debug/net9.0/JobEntry.9752DA1E.Up2Date
