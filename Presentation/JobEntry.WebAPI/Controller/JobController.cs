@@ -32,6 +32,12 @@ public class JobController : Microsoft.AspNetCore.Mvc.Controller
         return Ok(value);
     }
     
+    [HttpGet("with-property/{id}")]
+    public async Task<IActionResult> GetJobByIdProperty(string id)
+    {
+        var value = await _mediator.Send(new GetJobByIdWithPropertyQuery(id));
+        return Ok(value);
+    }
     [HttpGet("Get5Job")]
     public async Task<IActionResult> Get5Job()
     {
@@ -39,6 +45,13 @@ public class JobController : Microsoft.AspNetCore.Mvc.Controller
         return Ok(value);
     }
 
+    [HttpGet("GetAllJob")]
+    public async Task<IActionResult> GetAllJob()
+    {
+        var value = await _mediator.Send(new GetJobWithPropertyQuery());
+        return Ok(value);
+    }
+    
 
     
     // POST api/values

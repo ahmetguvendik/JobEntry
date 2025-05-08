@@ -1,4 +1,8 @@
 @model List<JobEntry.DTO.ContactDTOs.ResultContactDto>
+
+@await Component.InvokeAsync("_ContactHeaderUILayoutComponentPartial") 
+
+
 @using Newtonsoft.Json
 @{
     ViewData["Title"] = "Index";

@@ -5,7 +5,9 @@
     Layout = "~/Views/UILayout/Index.cshtml";
 }
 
-   <!-- About Start -->
+@await Component.InvokeAsync("_HeaderUILayoutComponentPartial") 
+
+<!-- About Start -->
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="row g-5 align-items-center">

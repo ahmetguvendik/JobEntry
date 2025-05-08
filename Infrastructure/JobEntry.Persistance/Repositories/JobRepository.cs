@@ -16,11 +16,31 @@ public class JobRepository : IJobRepository
     public async Task<List<Job>> Get5JobWithPropertyAsync()
     {
         var value = _context.Jobs
-            .Include(x => x.Company)         // Navigation Property
-            .Include(y => y.Location)        // Navigation Property (LocationId DEĞİL!)
-            .Include(z => z.JobType)         // Navigation Property
+            .Include(x => x.Company)        
+            .Include(y => y.Location)        
+            .Include(z => z.JobType)        
             .Take(5)
             .ToList();        
         return value;
+    }
+
+    public async Task<List<Job>> GetAllJobWithPropertyAsync()
+    {
+        var value = _context.Jobs
+            .Include(x => x.Company)
+            .Include(y => y.Location)       
+            .Include(z => z.JobType)         
+            .ToList();        
+        return value;
+    }
+
+    public async Task<Job> GetJobByIdWithPropertyAsync(string id)
+    {
+        var job = await _context.Jobs
+            .Include(x => x.Company)
+            .Include(x => x.Location)
+            .Include(x => x.JobType)
+            .FirstOrDefaultAsync(j => j.Id == id);
+        return job;
     }
 }

@@ -1,4 +1,7 @@
+using System.Reflection;
+using FluentValidation.AspNetCore;
 using JobEntry.Application;
+using JobEntry.Application.Validations.Comments;
 using JobEntry.Persistance;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,6 +9,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+builder.Services.AddControllers()
+    .AddFluentValidation(fv =>
+    {
+        fv.RegisterValidatorsFromAssemblyContaining<CreateCommentValidations>();
+    });
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
