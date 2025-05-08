@@ -1,0 +1,44 @@
+@model List<JobEntry.DTO.AboutDTOs.ResultAboutDto>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/UILayout/Index.cshtml";
+}
+
+   <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="row g-0 about-bg rounded overflow-hidden">
+                            <div class="col-6 text-start">
+                                <img class="img-fluid w-100" src="job-portal-website-template/img/about-1.jpg">
+                            </div>
+                            <div class="col-6 text-start">
+                                <img class="img-fluid" src="job-portal-website-template/img/about-2.jpg" style="width: 85%; margin-top: 15%;">
+                            </div>
+                            <div class="col-6 text-end">
+                                <img class="img-fluid" src="job-portal-website-template/img/about-3.jpg" style="width: 85%;">
+                            </div>
+                            <div class="col-6 text-end">
+                                <img class="img-fluid w-100" src="job-portal-website-template/img/about-4.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        @foreach (var item in Model)
+                        {
+                            <h1 class="mb-4">@item.Title</h1>
+                            <p class="mb-4">@item.Description</p>
+                            <p><i class="fa fa-check text-primary me-3"></i>Geniş İş Ağı</p>
+                            <p><i class="fa fa-check text-primary me-3"></i>Akıllı Eşleşme</p>
+                            <p><i class="fa fa-check text-primary me-3"></i>Uzman Destek</p>
+                            <p><i class="fa fa-check text-primary me-3"></i>Güvenli ve Şeffaf</p>
+                            <a class="btn btn-primary py-3 px-5 mt-3" href="">Daha Fazlasi Icin</a>
+                        }
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
