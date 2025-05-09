@@ -1,0 +1,40 @@
+@model JobEntry.DTO.BannerDTOs.CreateBannerDto
+
+@{
+    ViewData["Title"] = "Job";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+
+}
+
+
+<div class="card">
+    <div class="card-body">
+        <h4 class="card-title">Yeni Banner Ekleme Sayfasi</h4>
+        <p class="card-subtitle mb-4">Sisteme Eklemek Istediginiz Yeni Banner Giriniz </p>
+
+        <form asp-action="CreateBanner"  asp-controller="AdminBanner" method="post">
+
+            <div class="form-group">
+                <label>Başlık Giriniz</label>
+                <input type="text" asp-for="Title" placeholder="Başlık Giriniz" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Açıklama Giriniz</label>
+                <input type="text" asp-for="Description" placeholder="Açıklama Giriniz" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label>Video Açıklama Giriniz</label>
+                <input type="text" asp-for="ImageUrl" placeholder="Video Açıklama Giriniz" class="form-control">
+            </div>
+
+            
+            <button type="submit" class="btn btn-success">
+                Ekle
+            </button>
+
+
+        </form>
+    </div>
+
+</div>

@@ -1,0 +1,33 @@
+@model JobEntry.DTO.CategoryDTOs.CreateCategoryDto
+
+@{
+    ViewData["Title"] = "Job";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+
+}
+
+
+<div class="card">
+    <div class="card-body">
+        <h4 class="card-title">Yeni Banner Ekleme Sayfasi</h4>
+        <p class="card-subtitle mb-4">Sisteme Eklemek Istediginiz Yeni Banner Giriniz </p>
+
+        <form asp-action="CreateCategory"  asp-controller="AdminCategory" method="post">
+
+            <div class="form-group">
+                <label>Isim Giriniz</label>
+                <input type="text" asp-for="Name" placeholder="Isim Giriniz" class="form-control">
+            </div>
+            
+            <div class="form-group">
+                <label>Icon URL Giriniz</label>
+                <input type="text" asp-for="IconURL" placeholder="Icon URL Giriniz" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">
+                Ekle
+            </button>
+            
+        </form>
+    </div>
+
+</div>

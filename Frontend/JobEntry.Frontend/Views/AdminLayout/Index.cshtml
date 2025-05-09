@@ -1,0 +1,37 @@
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+@await Component.InvokeAsync("_AdminHeadComponentPartial")
+
+    <body>
+
+        <!-- Begin page -->
+        <div id="layout-wrapper">
+
+            <div class="main-content">
+
+                @await Component.InvokeAsync("_AdminHeaderComponentPartial")
+
+                @await Component.InvokeAsync("_AdminHorizantelMenuComponentPartial")
+         
+                @RenderBody()
+                <!-- End Page-content -->
+
+             @await Component.InvokeAsync("_AdminFooterComponentPartial")
+
+            </div>
+            <!-- end main content-->
+
+        </div>
+        <!-- END layout-wrapper -->
+
+
+    @await Component.InvokeAsync("_AdminScriptComponentPartial")
+
+    </body>
+
+</html>

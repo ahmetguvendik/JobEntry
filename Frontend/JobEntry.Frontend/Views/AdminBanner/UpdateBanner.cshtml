@@ -1,0 +1,36 @@
+@model JobEntry.DTO.BannerDTOs.UpdateBannerDto
+@{
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="card">
+    <div class="card-body">
+        <h4 class="card-title">Banner Guncelleme Sayfasi</h4>
+        <p class="card-subtitle mb-4">Sistemde Guncellemek Istediginiz Banner Giriniz </p>
+
+        <form asp-action="UpdateBanner"  asp-controller="AdminBanner" method="post">
+
+            <div class="form-group">
+                <label>Başlık Giriniz</label>
+                <input type="text" asp-for="Title" placeholder="Başlık Giriniz" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Açıklama Giriniz</label>
+                <input type="text" asp-for="Description" placeholder="Açıklama Giriniz" class="form-control">
+            </div>
+            
+            <div class="form-group">
+                <label>Video Linki Giriniz</label>
+                <input type="text" asp-for="ImageUrl" placeholder="Video Linki Giriniz" class="form-control">
+            </div>
+
+
+            <button type="submit" class="btn btn-success">
+                Güncelle
+            </button>
+            
+
+        </form>
+    </div>
+    <!-- end card-body-->
+</div>
