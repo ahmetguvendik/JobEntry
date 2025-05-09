@@ -1,3 +1,5 @@
+using System.Net.Http.Headers;
+using JobEntry.DTO.ApplyJobDTOs;
 using JobEntry.DTO.JobDTOs;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -52,5 +54,47 @@ public class JobController : Controller
         }
         return View();
     }
+
+
+    
+    [HttpGet]
+    public PartialViewResult ApplyJob()
+    {
+        
+        return PartialView();
+    }
+
+    public async Task<IActionResult> ApplyJob(CreeteApplyJobDto creeteApplyJobDto)
+    {
+        creeteApplyJobDto.AppliedAt = DateTime.Now;
+        var client = _httpClientFactory.CreateClient();
+        using var content = new MultipartFormDataContent();
+
+        if (creeteApplyJobDto.CvFile != null && creeteApplyJobDto.CvFile.Length > 0)
+        {
+            var fileStream = creeteApplyJobDto.CvFile.OpenReadStream();
+            var fileContent = new StreamContent(fileStream);
+            fileContent.Headers.ContentType = new MediaTypeHeaderValue(creeteApplyJobDto.CvFile.ContentType);
+            content.Add(fileContent, "CvFile", creeteApplyJobDto.CvFile.FileName);
+        }
+
+        var response = await client.PostAsync($"http://localhost:5202/api/ApplyJobCommand?NameSurname={creeteApplyJobDto.NameSurname}&Email={creeteApplyJobDto.Email}&Website={creeteApplyJobDto.Website}&AppliedAt={creeteApplyJobDto.AppliedAt}&JobId={creeteApplyJobDto.JobId}", content);
+
+        if (response.IsSuccessStatusCode)
+        {
+            TempData["SuccessMessage"] = "Basvurunuz Basariyla Gonderildi."; // Başarı mesajını TempData'ya ekliyoruz
+            return RedirectToAction("JobDetail", new { id = creeteApplyJobDto.JobId });
+        }
+
+        var responseContent = await response.Content.ReadAsStringAsync();
+        var problemDetails = JsonConvert.DeserializeObject<ValidationProblemDetails>(responseContent);
+
+        var allErrors = problemDetails.Errors.SelectMany(e => e.Value).ToList();
+
+        TempData["ErrorMessages"] = JsonConvert.SerializeObject(allErrors);
+        return RedirectToAction("JobDetail", new { id = creeteApplyJobDto.JobId });
+    }
+
+    
 
 }

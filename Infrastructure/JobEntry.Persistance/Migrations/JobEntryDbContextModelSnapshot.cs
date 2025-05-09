@@ -40,6 +40,40 @@ namespace JobEntry.Persistance.Migrations
                     b.ToTable("Abouts");
                 });
 
+            modelBuilder.Entity("JobEntry.Domain.Entities.ApplyJob", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("AppliedAt")
+                        .HasColumnType("timestamp without time zone");
+
+                    b.Property<string>("CvFilePath")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("JobId")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("NameSurname")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Website")
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("JobId");
+
+                    b.ToTable("ApplyJobs");
+                });
+
             modelBuilder.Entity("JobEntry.Domain.Entities.Banner", b =>
                 {
                     b.Property<string>("Id")
@@ -282,6 +316,17 @@ namespace JobEntry.Persistance.Migrations
                     b.ToTable("Testimonials");
                 });
 
+            modelBuilder.Entity("JobEntry.Domain.Entities.ApplyJob", b =>
+                {
+                    b.HasOne("JobEntry.Domain.Entities.Job", "Job")
+                        .WithMany("ApplyJobs")
+                        .HasForeignKey("JobId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Job");
+                });
+
             modelBuilder.Entity("JobEntry.Domain.Entities.Job", b =>
                 {
                     b.HasOne("JobEntry.Domain.Entities.Category", "Category")
@@ -333,6 +378,11 @@ namespace JobEntry.Persistance.Migrations
             modelBuilder.Entity("JobEntry.Domain.Entities.Company", b =>
                 {
                     b.Navigation("Jobs");
+                });
+
+            modelBuilder.Entity("JobEntry.Domain.Entities.Job", b =>
+                {
+                    b.Navigation("ApplyJobs");
                 });
 
             modelBuilder.Entity("JobEntry.Domain.Entities.JobStyle", b =>

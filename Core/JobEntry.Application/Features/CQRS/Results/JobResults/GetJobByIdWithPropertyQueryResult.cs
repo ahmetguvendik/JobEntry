@@ -11,5 +11,7 @@ public class GetJobByIdWithPropertyQueryResult
     public string LocationName { get; set; }
     public string JobTypeName { get; set; }
     public string Salary { get; set; }
+    public string CompanyName { get; set; }
     public string CompanyDescription { get; set; }
+    
 }

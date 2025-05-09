@@ -44,6 +44,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/Views/Job/ApplyJob.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSm9iL0FwcGx5Sm9iLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/Views/Job/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSm9iL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -70,6 +74,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/Views/Shared/Components/_FooterUILayoutComponentPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0Zvb3RlclVJTGF5b3V0Q29tcG9uZW50UGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/Views/Shared/Components/_HeaderUILayoutComponentPartial/Default 2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0hlYWRlclVJTGF5b3V0Q29tcG9uZW50UGFydGlhbC9EZWZhdWx0IDIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.Frontend/Views/Shared/Components/_HeaderUILayoutComponentPartial/Default.cshtml]

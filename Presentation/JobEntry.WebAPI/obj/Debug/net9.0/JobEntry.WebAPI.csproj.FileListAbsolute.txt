@@ -145,3 +145,4 @@
 /Users/ahmetguvendik/Desktop/Project/JobEntry/Presentation/JobEntry.WebAPI/bin/Debug/net9.0/FluentValidation.dll
 /Users/ahmetguvendik/Desktop/Project/JobEntry/Presentation/JobEntry.WebAPI/bin/Debug/net9.0/FluentValidation.AspNetCore.dll
 /Users/ahmetguvendik/Desktop/Project/JobEntry/Presentation/JobEntry.WebAPI/bin/Debug/net9.0/FluentValidation.DependencyInjectionExtensions.dll
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Presentation/JobEntry.WebAPI/bin/Debug/net9.0/JobEntry.WebAPI.staticwebassets.runtime.json

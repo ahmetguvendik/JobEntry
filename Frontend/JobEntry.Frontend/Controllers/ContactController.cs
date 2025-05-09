@@ -61,8 +61,5 @@ public class ContactController : Controller
             return RedirectToAction("Index");
         }
     }
-
-
-
-    }
+}
     

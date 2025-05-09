@@ -1,6 +1,7 @@
 using System.Reflection;
 using FluentValidation.AspNetCore;
 using JobEntry.Application;
+using JobEntry.Application.Features.CQRS.Commands.ApplyJobCommands;
 using JobEntry.Application.Validations.Comments;
 using JobEntry.Persistance;
 
@@ -13,7 +14,9 @@ builder.Services.AddControllers()
     .AddFluentValidation(fv =>
     {
         fv.RegisterValidatorsFromAssemblyContaining<CreateCommentValidations>();
+        fv.RegisterValidatorsFromAssemblyContaining<CreateApplyJobCommand>();
     });
+
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -30,6 +33,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseStaticFiles(); // wwwroot klasörünü etkinleştirir
 
 app.MapControllers();
 app.UseHttpsRedirection();

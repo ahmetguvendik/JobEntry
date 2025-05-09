@@ -17,6 +17,7 @@ public class Job : BaseEntity
     public string Salary { get; set; }
     public Category Category { get; set; }
     public string CategoryId { get; set; }
+    public List<ApplyJob> ApplyJobs { get; set; }   
     
     
 }

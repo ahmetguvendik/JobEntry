@@ -9,3 +9,4 @@
 /Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.DTO/obj/Debug/net9.0/refint/JobEntry.DTO.dll
 /Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.DTO/obj/Debug/net9.0/JobEntry.DTO.pdb
 /Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.DTO/obj/Debug/net9.0/ref/JobEntry.DTO.dll
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Frontend/JobEntry.DTO/obj/Debug/net9.0/JobEntry.DTO.csproj.AssemblyReference.cache

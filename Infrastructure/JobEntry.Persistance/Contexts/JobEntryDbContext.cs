@@ -19,4 +19,5 @@ public class JobEntryDbContext: DbContext
     public DbSet<Testimonial> Testimonials { get; set; }
     public DbSet<Category> Categories { get; set; }
     public DbSet<Comment> Comments { get; set; }
+    public DbSet<ApplyJob> ApplyJobs { get; set; }
 }

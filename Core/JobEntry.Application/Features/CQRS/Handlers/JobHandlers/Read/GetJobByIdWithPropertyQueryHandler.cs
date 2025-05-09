@@ -29,6 +29,7 @@ public class GetJobByIdWithPropertyQueryHandler : IRequestHandler<GetJobByIdWith
             LocationName = job.Location.Name,
             PublishedTime = job.PublishedTime,
             Salary = job.Salary,
+            CompanyName = job.Company.Name,
         };
     }
 }

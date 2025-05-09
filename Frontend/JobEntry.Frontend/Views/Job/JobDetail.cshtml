@@ -1,71 +1,86 @@
 @model JobEntry.DTO.JobDTOs.ResultGetAllJobDto
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Job Detail";
     Layout = "~/Views/UILayout/Index.cshtml";
 }
 
-<!-- Job Detail Start -->
-        <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="container">
-                <div class="row gy-5 gx-4">
-                    <div class="col-lg-8">
-                        <div class="d-flex align-items-center mb-5">
-                            <img class="flex-shrink-0 img-fluid border rounded" src=@Model.CompanyImageURL alt="" style="width: 80px; height: 80px;">
-                            <div class="text-start ps-4">
-                                <h3 class="mb-3">@Model.Name</h3>
-                                <span class="text-truncate me-3"><i class="fa fa-map-marker-alt text-primary me-2"></i>@Model.LocationName</span>
-                                <span class="text-truncate me-3"><i class="far fa-clock text-primary me-2"></i>@Model.JobTypeName</span>
-                                <span class="text-truncate me-0"><i class="far fa-money-bill-alt text-primary me-2"></i>@Model.Salary</span>
-                            </div>
-                        </div>
+@using Newtonsoft.Json
+@{
+    var successMessage = TempData["SuccessMessage"] as string;
+    var errorMessages = TempData["ErrorMessages"] != null
+        ? JsonConvert.DeserializeObject<List<string>>(TempData["ErrorMessages"].ToString())
+        : null;
+}
 
-                        <div class="mb-5">
-                            <h4 class="mb-3">İş Açıklaması</h4>
-                            <p>@Model.Description</p>
-                        </div>
-        
-                        <div class="">
-                            <h4 class="mb-4">Apply For The Job</h4>
-                            <form>
-                                <div class="row g-3">
-                                    <div class="col-12 col-sm-6">
-                                        <input type="text" class="form-control" placeholder="Your Name">
-                                    </div>
-                                    <div class="col-12 col-sm-6">
-                                        <input type="email" class="form-control" placeholder="Your Email">
-                                    </div>
-                                    <div class="col-12 col-sm-6">
-                                        <input type="text" class="form-control" placeholder="Portfolio Website">
-                                    </div>
-                                    <div class="col-12 col-sm-6">
-                                        <input type="file" class="form-control bg-white">
-                                    </div>
-                                    <div class="col-12">
-                                        <textarea class="form-control" rows="5" placeholder="Coverletter"></textarea>
-                                    </div>
-                                    <div class="col-12">
-                                        <button class="btn btn-primary w-100" type="submit">Apply Now</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.0/dist/sweetalert2.all.min.js"></script>
+
+<!-- Job Detail Content -->
+<div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container">
+        <div class="row gy-5 gx-4">
+            <div class="col-lg-8">
+                <div class="d-flex align-items-center mb-5">
+                    <img class="flex-shrink-0 img-fluid border rounded" src="@Model.CompanyImageURL" alt="" style="width: 80px; height: 80px;">
+                    <div class="text-start ps-4">
+                        <h3 class="mb-3">@Model.Name</h3>
+                        <span class="text-truncate me-3"><i class="fa fa-map-marker-alt text-primary me-2"></i>@Model.LocationName</span>
+                        <span class="text-truncate me-3"><i class="far fa-clock text-primary me-2"></i>@Model.JobTypeName</span>
+                        <span class="text-truncate me-0"><i class="far fa-money-bill-alt text-primary me-2"></i>@Model.Salary</span>
                     </div>
-        
-                    <div class="col-lg-4">
-                        <div class="bg-light rounded p-5 mb-4 wow slideInUp" data-wow-delay="0.1s">
-                            <h4 class="mb-4">Job Summery</h4>
-                            <p><i class="fa fa-angle-right text-primary me-2"></i>Published On: @Model.PublishedTime.ToShortDateString()</p>
-                            <p><i class="fa fa-angle-right text-primary me-2"></i>Job Nature: @Model.JobTypeName</p>
-                            <p><i class="fa fa-angle-right text-primary me-2"></i>Salary: @Model.Salary</p>
-                            <p><i class="fa fa-angle-right text-primary me-2"></i>Location: @Model.LocationName</p>
-                            <p class="m-0"><i class="fa fa-angle-right text-primary me-2"></i>Date Line: @Model.EndTime</p>
-                        </div>
-                        <div class="bg-light rounded p-5 wow slideInUp" data-wow-delay="0.1s">
-                            <h4 class="mb-4">Şirket Datayları</h4>
-                            <p class="m-0">@Model.Description</p>
-                        </div>
-                    </div>
+                </div>
+
+                <div class="mb-5">
+                    <h4 class="mb-3">İş Açıklaması</h4>
+                    <p>@Model.Description</p>
+                </div>
+                
+                @await Html.PartialAsync("~/Views/Job/ApplyJob.cshtml", new JobEntry.DTO.ApplyJobDTOs.CreeteApplyJobDto() { JobId = ViewBag.jobid })
+                
+            </div>
+
+            <div class="col-lg-4">
+                <!-- Job Summary -->
+                <div class="bg-light rounded p-5 mb-4 wow slideInUp" data-wow-delay="0.1s">
+                    <h4 class="mb-4">Job Summery</h4>
+                    <p><i class="fa fa-angle-right text-primary me-2"></i>Paylasilma Tarihi: @Model.PublishedTime.ToShortDateString()</p>
+                    <p><i class="fa fa-angle-right text-primary me-2"></i>Is Tipi: @Model.JobTypeName</p>
+                    <p><i class="fa fa-angle-right text-primary me-2"></i>Maas: @Model.Salary</p>
+                    <p><i class="fa fa-angle-right text-primary me-2"></i>Konum: @Model.LocationName</p>
+                    <p class="m-0"><i class="fa fa-angle-right text-primary me-2"></i>Son Basvuru Tarihi: @Model.EndTime.ToShortDateString()</p>
+                </div>
+                <!-- Company Info -->
+                <div class="bg-light rounded p-5 wow slideInUp" data-wow-delay="0.1s">
+                    <h4 class="mb-4">Şirket Datayları</h4>
+                    <p class="m-0">@Model.CompanyName</p>
+                    <p class="m-0">@Model.CompanyDescription</p>
                 </div>
             </div>
         </div>
-        <!-- Job Detail End -->
+    </div>
+</div>
+
+<!-- Success or Error Message Alert -->
+@if (!string.IsNullOrEmpty(successMessage))
+{
+    <script>
+        Swal.fire({
+            icon: 'success',
+            title: 'Başarılı!',
+            text: '@successMessage',
+            confirmButtonColor: '#3085d6',
+            confirmButtonText: 'Tamam'
+        });
+    </script>
+}
+else if (errorMessages != null && errorMessages.Count > 0)
+{
+    <script>
+        Swal.fire({
+            icon: 'error',
+            title: 'Hata!',
+            text: '@string.Join("\n", errorMessages)',
+            confirmButtonColor: '#d33',
+            confirmButtonText: 'Tamam'
+        });
+    </script>
+}

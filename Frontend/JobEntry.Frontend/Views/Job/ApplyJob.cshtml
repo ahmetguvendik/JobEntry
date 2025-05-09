@@ -1,0 +1,29 @@
+@model JobEntry.DTO.ApplyJobDTOs.CreeteApplyJobDto
+
+
+
+<div class="">
+    <h4 class="mb-4">Hemen Basvuru Yapin</h4>
+    
+    <form asp-action="ApplyJob" asp-controller="Job" method="post"  enctype="multipart/form-data">
+        <input type="hidden" asp-for="JobId" />
+        <div class="row g-3">
+            <div class="col-12 col-sm-6">
+                <input type="text" class="form-control" placeholder="Adiniz ve Soyadiniz" asp-for="NameSurname">
+                
+            </div>
+            <div class="col-12 col-sm-6">
+                <input type="email" class="form-control" placeholder="Email" asp-for="Email">
+            </div>
+            <div class="col-12 col-sm-12">
+                <input type="file" class="form-control bg-white" asp-for="CvFile">
+            </div>
+            <div class="col-12">
+                <textarea class="form-control" rows="5" placeholder="Coverletter" asp-for="Website" ></textarea>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-primary w-100" type="submit">Basvur</button>
+            </div>
+        </div>
+    </form>
+</div>
