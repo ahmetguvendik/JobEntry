@@ -1,0 +1,58 @@
+@model List<JobEntry.DTO.CommentDTOs.ResultCommentDto>
+@{
+    ViewData["Title"] = "Job";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+
+}
+
+
+   <div class="row">
+                            <div class="col-xl-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Banner</h4>
+                                        <p class="card-subtitle mb-4"> Sistemdeki Banner Verileri
+                                        </p>
+                                        <div class="table-responsive">
+                                            <table class="table mb-0">
+                                                <thead>
+                                                <tr>
+                                                    <th>#</th>
+                                                    <th>AdSoyado</th>
+                                                    <th>Email</th>
+                                                    <th>Konu</th>
+                                                    <th>Mesaj</th>
+                                                    <th>Tarih</th>
+                                                </tr>
+                                                </thead>
+                                                @foreach (var item in Model)
+                                                {
+                                                    <tbody>
+                                                    <tr>
+                                                        <th scope="row">1</th>
+                                                        <td>@item.NameSurname</td>
+                                                        <td>@item.Email</td>
+                                                        <td>@item.Subject</td>
+                                                        <td>@item.Message</td>
+                                                        <td>@item.CreatedTime</td>
+                                                    </tr>
+                                                
+                                                    </tbody>
+                                                }
+                                            </table>
+                                            
+                                            
+                                        </div>
+    
+                                    </div>
+                                    <!-- end card-body-->
+                                </div>
+                                <!-- end card -->
+    
+                            </div>
+                            <!-- end col -->
+    
+    
+                       
+                            <!-- end col -->
+                        </div>

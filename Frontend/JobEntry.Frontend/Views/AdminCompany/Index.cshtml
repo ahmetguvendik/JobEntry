@@ -1,0 +1,59 @@
+@model List<JobEntry.DTO.CompanyDTOs.ResultCompanyDto>
+
+@{
+    ViewData["Title"] = "Sirket";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+
+}
+
+   <div class="row">
+                            <div class="col-xl-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Sirketler</h4>
+                                        <p class="card-subtitle mb-4"> Sistemdeki Sirket Verileri
+                                        </p>
+                                        <div class="table-responsive">
+                                            <table class="table mb-0">
+                                                <thead>
+                                                <tr>
+                                                    <th>#</th>
+                                                    <th>Ad</th>
+                                                    <th>Aciklama</th>
+                                                    <th>Logo URL</th>
+                                                    <th>Sil</th>
+                                                    <th>Guncelle</th>
+                                                </tr>
+                                                </thead>
+                                                @foreach (var item in Model)
+                                                {
+                                                    <tbody>
+                                                    <tr>
+                                                        <th scope="row">1</th>
+                                                        <td>@item.Name</td>
+                                                        <td>@item.Description</td>
+                                                        <td>@item.LogoUrl</td>
+                                                        <td><a href="\AdminCompany\RemoveCompany\@item.Id">Sil</a></td>
+                                                        <td><a href="\AdminCompany\UpdateCompany\@item.Id">Guncelle</a></td>
+                                                    </tr>
+                                                
+                                                    </tbody>
+                                                }
+                                            </table>
+                                    
+                                                <a href="/AdminCompany/CreateCompany">Yeni Sriket Ekleme</a>     
+                                            
+                                        </div>
+    
+                                    </div>
+                                    <!-- end card-body-->
+                                </div>
+                                <!-- end card -->
+    
+                            </div>
+                            <!-- end col -->
+    
+    
+                       
+                            <!-- end col -->
+                        </div>

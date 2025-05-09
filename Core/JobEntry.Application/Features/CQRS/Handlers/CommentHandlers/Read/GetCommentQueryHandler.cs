@@ -24,6 +24,7 @@ public class GetCommentQueryHandler  : IRequestHandler<GetCommentQuery, List<Get
             Email = x.Email,
             Subject = x.Subject,
             Message = x.Message,
+            CreatedTime = x.CreatedTime,
         }).ToList();
     }
 }

@@ -25,6 +25,7 @@ public class GetCommentByIdQueryHandler : IRequestHandler<GetCommentByIdQuery,Ge
            Message = value.Message,
            NameSurname = value.NameSurname,
            Subject = value.Subject,
+           CreatedTime = value.CreatedTime,
        };
     }
 }
