@@ -19,6 +19,9 @@ JobEntry/
 ├── Frontend/
 ├── .gitattributes
 └── .DS_Store
+
+
+
 Core: Uygulamanın temel iş mantığı ve modellerini içerir.
 Infrastructure: Veri erişimi ve dış servis entegrasyonlarını barındırır.
 Presentation: API katmanını ve kullanıcı arayüzünü sunar.
