@@ -1,9 +1,11 @@
 using JobEntry.DTO.CommentDTOs;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
 namespace JobEntry.Frontend.Controllers;
 
+[Authorize(Roles = "Admin")]
 public class AdminCommentController : Controller
 {
     private readonly IHttpClientFactory _httpClientFactory;

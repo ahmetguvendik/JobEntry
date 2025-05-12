@@ -7,6 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\..\Core\JobEntry.Application\JobEntry.Application.csproj" />
       <ProjectReference Include="..\JobEntry.DTO\JobEntry.DTO.csproj" />
     </ItemGroup>
 

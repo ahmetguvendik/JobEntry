@@ -1,12 +1,14 @@
 using System.Text;
 using JobEntry.DTO.AboutDTOs;
 using JobEntry.DTO.TestimonialDTOs;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Newtonsoft.Json;
 
 namespace JobEntry.Frontend.Controllers;
 
+[Authorize(Roles = "Admin")]
 public class AdminTestimonialController : Controller
 {
     private readonly IHttpClientFactory _httpClientFactory;

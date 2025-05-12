@@ -3,6 +3,7 @@ using FluentValidation.AspNetCore;
 using JobEntry.Application;
 using JobEntry.Application.Features.CQRS.Commands.ApplyJobCommands;
 using JobEntry.Application.Validations.Comments;
+using JobEntry.Domain.Entities;
 using JobEntry.Persistance;
 
 var builder = WebApplication.CreateBuilder(args);

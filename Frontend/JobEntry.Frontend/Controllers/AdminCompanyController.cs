@@ -2,12 +2,14 @@ using System.Text;
 using JobEntry.DTO.AboutDTOs;
 using JobEntry.DTO.CategoryDTOs;
 using JobEntry.DTO.CompanyDTOs;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Newtonsoft.Json;
 
 namespace JobEntry.Frontend.Controllers;
 
+[Authorize(Roles = "Admin")]
 public class AdminCompanyController : Controller
 {
     private readonly IHttpClientFactory _httpClientFactory;

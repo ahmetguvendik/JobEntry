@@ -1,10 +1,11 @@
 using JobEntry.Domain.Entities;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 
 namespace JobEntry.Persistance.Contexts;
 
-public class JobEntryDbContext: DbContext
+public class JobEntryDbContext  : IdentityDbContext<AppUser, AppRole, string>
 {
     public JobEntryDbContext(DbContextOptions options) : base(options) { }
 

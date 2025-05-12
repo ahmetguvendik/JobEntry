@@ -9,3 +9,4 @@
 /Users/ahmetguvendik/Desktop/Project/JobEntry/Core/JobEntry.Domain/obj/Debug/net9.0/refint/JobEntry.Domain.dll
 /Users/ahmetguvendik/Desktop/Project/JobEntry/Core/JobEntry.Domain/obj/Debug/net9.0/JobEntry.Domain.pdb
 /Users/ahmetguvendik/Desktop/Project/JobEntry/Core/JobEntry.Domain/obj/Debug/net9.0/ref/JobEntry.Domain.dll
+/Users/ahmetguvendik/Desktop/Project/JobEntry/Core/JobEntry.Domain/obj/Debug/net9.0/JobEntry.Domain.csproj.AssemblyReference.cache

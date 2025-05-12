@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SEXywr0DDX1eKzI7+KGJ7hh0wa5+V+/3QyC0w+/ktUQ=",
+  "Hash": "tG6OjQlg6pZZCA7g807HYB2LUNfmj6j5xzu5RkMpPBc=",
   "Source": "JobEntry.WebAPI",
   "BasePath": "_content/JobEntry.WebAPI",
   "Mode": "Default",
@@ -141,6 +141,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/uploads/d546c254-a78a-45bf-a35a-6b062d57b24c.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Presentation/JobEntry.WebAPI/wwwroot/uploads/dca9c762-8b76-4ea9-9b56-9c43946f29af.pdf",
+      "SourceId": "JobEntry.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Presentation/JobEntry.WebAPI/wwwroot/",
+      "BasePath": "_content/JobEntry.WebAPI",
+      "RelativePath": "uploads/dca9c762-8b76-4ea9-9b56-9c43946f29af#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/dca9c762-8b76-4ea9-9b56-9c43946f29af.pdf"
     },
     {
       "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Presentation/JobEntry.WebAPI/wwwroot/uploads/e1924092-a456-40e0-904b-21da8798451d.pdf",
@@ -686,6 +707,88 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 09 May 2025 08:59:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/dca9c762-8b76-4ea9-9b56-9c43946f29af.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Presentation/JobEntry.WebAPI/wwwroot/uploads/dca9c762-8b76-4ea9-9b56-9c43946f29af.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 18:55:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/dca9c762-8b76-4ea9-9b56-9c43946f29af.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/dca9c762-8b76-4ea9-9b56-9c43946f29af.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntry/Presentation/JobEntry.WebAPI/wwwroot/uploads/dca9c762-8b76-4ea9-9b56-9c43946f29af.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 18:55:25 GMT"
         },
         {
           "Name": "Cache-Control",

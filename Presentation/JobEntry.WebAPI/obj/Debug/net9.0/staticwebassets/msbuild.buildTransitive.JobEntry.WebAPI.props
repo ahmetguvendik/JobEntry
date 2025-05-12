@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../buildMultiTargeting/JobEntry.WebAPI.props" />
-</Project>

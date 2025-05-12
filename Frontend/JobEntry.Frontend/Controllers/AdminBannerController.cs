@@ -1,12 +1,14 @@
 using System.Text;
 using JobEntry.DTO.AboutDTOs;
 using JobEntry.DTO.BannerDTOs;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Newtonsoft.Json;
 
 namespace JobEntry.Frontend.Controllers;
 
+[Authorize(Roles = "Admin")]
 public class AdminBannerController : Controller
 {
     private readonly IHttpClientFactory _httpClientFactory;
