@@ -135,6 +135,9 @@ namespace JobEntry.Persistance.Migrations
                     b.Property<string>("Id")
                         .HasColumnType("text");
 
+                    b.Property<string>("AppUserId")
+                        .HasColumnType("text");
+
                     b.Property<DateTime>("AppliedAt")
                         .HasColumnType("timestamp without time zone");
 
@@ -154,10 +157,16 @@ namespace JobEntry.Persistance.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<string>("Statues")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<string>("Website")
                         .HasColumnType("text");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
 
                     b.HasIndex("JobId");
 
@@ -514,11 +523,17 @@ namespace JobEntry.Persistance.Migrations
 
             modelBuilder.Entity("JobEntry.Domain.Entities.ApplyJob", b =>
                 {
+                    b.HasOne("JobEntry.Domain.Entities.AppUser", "AppUser")
+                        .WithMany("ApplyJobs")
+                        .HasForeignKey("AppUserId");
+
                     b.HasOne("JobEntry.Domain.Entities.Job", "Job")
                         .WithMany("ApplyJobs")
                         .HasForeignKey("JobId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("AppUser");
 
                     b.Navigation("Job");
                 });
@@ -615,6 +630,11 @@ namespace JobEntry.Persistance.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("JobEntry.Domain.Entities.AppUser", b =>
+                {
+                    b.Navigation("ApplyJobs");
                 });
 
             modelBuilder.Entity("JobEntry.Domain.Entities.Category", b =>

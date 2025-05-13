@@ -11,4 +11,7 @@ public class ApplyJob : BaseEntity
     public DateTime AppliedAt { get; set; } = DateTime.Now;
     public Job Job { get; set; }
     public string JobId { get; set; }
+    public AppUser? AppUser { get; set; }
+    public string? AppUserId { get; set; }
+    public string Statues { get; set; } 
 }

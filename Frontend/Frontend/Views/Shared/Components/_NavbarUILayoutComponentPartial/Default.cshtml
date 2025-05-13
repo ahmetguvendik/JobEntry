@@ -12,8 +12,17 @@
             <a href="\About" class="nav-item nav-link">Hakkımızda</a>
             <a href="\Job" class="nav-item nav-link">İş Bul</a>
             <a href="\Contact" class="nav-item nav-link">İletişim</a>
-            <a href="\Login" class="nav-item nav-link">Giriş Yap</a>
-            <a href="\Register" class="nav-item nav-link">Kayıt Ol</a>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <a href="\ApplyJob\Index" class="nav-item nav-link">Başvurular</a>   
+                <a href="\Login\Logout" class="nav-item nav-link">Çıkış Yap</a>   
+            }
+            else
+            {
+                <a href="\Login" class="nav-item nav-link">Giriş Yap</a>
+                <a href="\Register" class="nav-item nav-link">Kayıt Ol</a>
+            }
+         
         </div>
     </div>
 </nav>

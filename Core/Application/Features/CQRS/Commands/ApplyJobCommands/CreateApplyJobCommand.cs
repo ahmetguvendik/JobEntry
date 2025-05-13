@@ -16,4 +16,6 @@ public class CreateApplyJobCommand : IRequest
     
     [JsonIgnore]
     public string? CvFilePath { get; set; } // CvFilePath burada Command'da var, API'de setting yapacağız
+
+    public string? AppUserId { get; set; }
 }

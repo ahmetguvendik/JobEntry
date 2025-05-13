@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using System.IO;
 using System.Threading.Tasks;
+using JobEntry.Application.Features.CQRS.Queries.ApplyJobQueries;
 
 namespace JobEntry.WebAPI.Controllers
 {
@@ -19,6 +20,15 @@ namespace JobEntry.WebAPI.Controllers
             _mediator = mediator;
         }
 
+        
+        // GET api/values/5
+        [HttpGet("{id}")]
+        public async Task<IActionResult> Get(string id)
+        {
+            var value = await _mediator.Send(new GetApplyJobForMemberQuery(id));
+            return Ok(value);
+        }
+        
         [HttpPost]
         public async Task<IActionResult> Post([FromForm] CreateApplyJobCommand command)
         {

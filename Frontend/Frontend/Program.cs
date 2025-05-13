@@ -10,6 +10,8 @@ builder.Services.AddAuthentication("MyCookieAuth")
     {
         options.LoginPath = "/Login/Index"; // Giriş sayfası
         options.AccessDeniedPath = "/Login/AccessDenied"; // Yetkisiz erişimde yönlendirilecek sayfa
+        options.SlidingExpiration = true;
+        options.ExpireTimeSpan = TimeSpan.FromMinutes(60); // Cookie'nin ne kadar süre geçerli olduğunu belirler.
     });
 
 builder.Services.AddAuthorization();
@@ -34,7 +36,7 @@ app.MapStaticAssets();
 
 app.MapControllerRoute(
         name: "default",
-        pattern: "{controller=Home}/{action=Index}/{id?}")
+        pattern: "{controller=Default}/{action=Index}/{id?}")
     .WithStaticAssets();
 
 app.Run();

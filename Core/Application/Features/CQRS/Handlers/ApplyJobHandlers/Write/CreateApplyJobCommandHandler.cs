@@ -58,7 +58,10 @@ namespace JobEntry.Application.Features.CQRS.Handlers.ApplyJobHandlers.Write
                 CvFilePath = "/uploads/" + uniqueFileName, // Yolu ekle
                 Website = request.Website,
                 AppliedAt = DateTime.Now,
-                JobId = request.JobId
+                JobId = request.JobId,
+                AppUserId = request.AppUserId,
+                Statues = "Basvuru Alindi"
+              
             };
 
             await _applyJobRepository.CreateAsync(entity);

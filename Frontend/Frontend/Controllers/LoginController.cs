@@ -43,6 +43,7 @@ namespace JobEntry.Frontend.Controllers
                         var claims = new List<Claim>
                         {
                             new Claim(ClaimTypes.Name, loginUserDto.Username),
+                            new Claim(ClaimTypes.NameIdentifier, loginResult.Id), // Burada UserId'yi ekliyoruz
                             new Claim(ClaimTypes.Role, loginResult.Role)
                         };
 
@@ -84,7 +85,7 @@ namespace JobEntry.Frontend.Controllers
         public async Task<IActionResult> Logout()
         {
             await HttpContext.SignOutAsync("MyCookieAuth");
-            return RedirectToAction("Index", "Login");
+            return RedirectToAction("Index", "Default");    
         }
     }
 }

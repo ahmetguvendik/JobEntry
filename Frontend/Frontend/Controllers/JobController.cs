@@ -1,4 +1,5 @@
 using System.Net.Http.Headers;
+using System.Security.Claims;
 using JobEntry.DTO.ApplyJobDTOs;
 using JobEntry.DTO.JobDTOs;
 using Microsoft.AspNetCore.Mvc;
@@ -63,52 +64,61 @@ public class JobController : Controller
         
         return PartialView();
     }
-
+    
+    
     [HttpPost]
-    public async Task<IActionResult> ApplyJob([FromForm]CreeteApplyJobDto creeteApplyJobDto)    
+public async Task<IActionResult> ApplyJob([FromForm] CreeteApplyJobDto creeteApplyJobDto)
+{
+    // Başvuru zamanı
+    creeteApplyJobDto.AppliedAt = DateTime.Now;
+
+    // Giriş yapan kullanıcının ID'sini al
+    var userId = User.Identity.IsAuthenticated ? User.FindFirstValue(ClaimTypes.NameIdentifier) : null;
+    creeteApplyJobDto.AppUserId = userId;
+
+    var client = _httpClientFactory.CreateClient();
+    using var content = new MultipartFormDataContent();
+
+    // String alanları ekle
+    content.Add(new StringContent(creeteApplyJobDto.NameSurname), "NameSurname");
+    content.Add(new StringContent(creeteApplyJobDto.Email), "Email");
+    content.Add(new StringContent(creeteApplyJobDto.Website ?? ""), "Website");
+    content.Add(new StringContent(creeteApplyJobDto.AppliedAt.ToString("o")), "AppliedAt");
+    content.Add(new StringContent(creeteApplyJobDto.JobId), "JobId");
+
+    // Giriş yapılmışsa AppUserId'yi gönder
+    if (!string.IsNullOrEmpty(creeteApplyJobDto.AppUserId))
     {
-        creeteApplyJobDto.AppliedAt = DateTime.Now;
+        content.Add(new StringContent(creeteApplyJobDto.AppUserId), "AppUserId");
+    }
 
-        var client = _httpClientFactory.CreateClient();
-        using var content = new MultipartFormDataContent();
+    // CV dosyası varsa ekle
+    if (creeteApplyJobDto.CvFile != null && creeteApplyJobDto.CvFile.Length > 0)
+    {
+        var fileStream = creeteApplyJobDto.CvFile.OpenReadStream();
+        var fileContent = new StreamContent(fileStream);
+        fileContent.Headers.ContentType = new MediaTypeHeaderValue(creeteApplyJobDto.CvFile.ContentType);
+        content.Add(fileContent, "CvFile", creeteApplyJobDto.CvFile.FileName);
+    }
 
-        // String alanları ekle
-        content.Add(new StringContent(creeteApplyJobDto.NameSurname), "NameSurname");
-        content.Add(new StringContent(creeteApplyJobDto.Email), "Email");
-        content.Add(new StringContent(creeteApplyJobDto.Website ?? ""), "Website");
-        content.Add(new StringContent(creeteApplyJobDto.AppliedAt.ToString("o")), "AppliedAt");
-        content.Add(new StringContent(creeteApplyJobDto.JobId), "JobId");
+    // API'ye gönder
+    var response = await client.PostAsync("http://localhost:5214/api/ApplyJob", content);
 
-        // Dosya varsa ekle
-        if (creeteApplyJobDto.CvFile != null && creeteApplyJobDto.CvFile.Length > 0)
-        {
-            var fileStream = creeteApplyJobDto.CvFile.OpenReadStream();
-            var fileContent = new StreamContent(fileStream);
-            fileContent.Headers.ContentType = new MediaTypeHeaderValue(creeteApplyJobDto.CvFile.ContentType);
-            content.Add(fileContent, "CvFile", creeteApplyJobDto.CvFile.FileName);
-        }
-
-        // API'ye gönder
-        var response = await client.PostAsync("http://localhost:5214/api/ApplyJob", content);
-
-        // Başarılıysa yönlendir
-        if (response.IsSuccessStatusCode)
-        {
-            TempData["SuccessMessage"] = "Basvurunuz Basariyla Gonderildi.";
-            return RedirectToAction("JobDetail", new { id = creeteApplyJobDto.JobId });
-        }
-
-        // Hataları işle
-        var responseContent = await response.Content.ReadAsStringAsync();
-        var problemDetails = JsonConvert.DeserializeObject<ValidationProblemDetails>(responseContent);
-
-        var allErrors = problemDetails?.Errors?.SelectMany(e => e.Value).ToList() ?? new List<string> { "Bilinmeyen bir hata oluştu." };
-        TempData["ErrorMessages"] = JsonConvert.SerializeObject(allErrors);
-
+    if (response.IsSuccessStatusCode)
+    {
+        TempData["SuccessMessage"] = "Başvurunuz başarıyla gönderildi.";
         return RedirectToAction("JobDetail", new { id = creeteApplyJobDto.JobId });
     }
 
+    // Hata varsa detaylı oku
+    var responseContent = await response.Content.ReadAsStringAsync();
+    var problemDetails = JsonConvert.DeserializeObject<ValidationProblemDetails>(responseContent);
+    var allErrors = problemDetails?.Errors?.SelectMany(e => e.Value).ToList() ?? new List<string> { "Bilinmeyen bir hata oluştu." };
+    TempData["ErrorMessages"] = JsonConvert.SerializeObject(allErrors);
 
-    
+    return RedirectToAction("JobDetail", new { id = creeteApplyJobDto.JobId });
+}
+
+
 
 }

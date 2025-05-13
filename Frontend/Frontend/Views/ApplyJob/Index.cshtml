@@ -1,0 +1,49 @@
+@model List<JobEntry.DTO.ApplyJobDTOs.GetApplyJobForMemberDto>
+
+@{
+    ViewData["Title"] = "Job";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+
+}
+
+   <div class="row">
+                            <div class="col-xl-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Basvurulariniz</h4>
+                                        <div class="table-responsive">
+                                            <table class="table mb-0">
+                                                <thead>
+                                                <tr>
+                                                    <th>#</th>
+                                                    <th>Sirket Adi</th>
+                                                    <th>Durumu</th>
+                 
+                                                </tr>
+                                                </thead>
+                                                @foreach (var item in Model)
+                                                {
+                                                    <tbody>
+                                                    <tr>
+                                                        <th scope="row">1</th>
+                                                        <td>@item.JobName</td>
+                                                        <td>@item.Statues</td>
+                                                    </tr>
+                                                
+                                                    </tbody>
+                                                }
+                                            </table>
+    
+                                            
+                                        </div>
+    
+                                    </div>
+                                    <!-- end card-body-->
+                                </div>
+                                <!-- end card -->
+    
+                            </div>
+                            <!-- end col -->
+                            
+                            <!-- end col -->
+                        </div>

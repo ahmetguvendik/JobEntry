@@ -10,4 +10,5 @@ public class CreeteApplyJobDto
     public DateTime AppliedAt { get; set; } = DateTime.Now;
     public string JobId { get; set; }
     public string? CvFilePath { get; set; } // CvFilePath burada Command'da var, API'de setting yapacağız
+    public string? AppUserId { get; set; }
 }
