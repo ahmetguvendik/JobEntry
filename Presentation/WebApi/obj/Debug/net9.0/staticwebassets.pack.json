@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/3e9e4bb6-8239-41aa-b8b7-3e42b17a155e.pdf",
+      "PackagePath": "staticwebassets/uploads/3e9e4bb6-8239-41aa-b8b7-3e42b17a155e.pdf"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/a902a1ea-24a6-4960-89d1-ff5c849c1e7e.pdf",
+      "PackagePath": "staticwebassets/uploads/a902a1ea-24a6-4960-89d1-ff5c849c1e7e.pdf"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/cc184540-4ebc-46ab-bdf1-c85e7b49b43c.pdf",
+      "PackagePath": "staticwebassets/uploads/cc184540-4ebc-46ab-bdf1-c85e7b49b43c.pdf"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/d8cfc638-9b1a-4809-9a2d-775c17fd7dd9.pdf",
+      "PackagePath": "staticwebassets/uploads/d8cfc638-9b1a-4809-9a2d-775c17fd7dd9.pdf"
+    },
+    {
+      "Id": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/df615159-cade-47f6-871d-187a46f29dc2.pdf",
+      "PackagePath": "staticwebassets/uploads/df615159-cade-47f6-871d-187a46f29dc2.pdf"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.WebApi.props",
+      "PackagePath": "build\\WebApi.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.WebApi.props",
+      "PackagePath": "buildMultiTargeting\\WebApi.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.WebApi.props",
+      "PackagePath": "buildTransitive\\WebApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
