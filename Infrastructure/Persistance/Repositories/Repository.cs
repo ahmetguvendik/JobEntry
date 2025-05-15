@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq.Expressions;
 using System.Threading.Tasks;
 using JobEntry.Application.Repositories;
 using JobEntry.Persistance.Contexts;
@@ -45,5 +46,10 @@ public class Repository<T> : IRepository<T> where T : class
     public async Task SaveChangesAsync()
     {
         await _context.SaveChangesAsync();
+    }
+
+    public async Task<T?> GetByFilterAsync(Expression<Func<T, bool>> filter)
+    {
+        return await _context.Set<T>().FirstOrDefaultAsync(filter);
     }
 }

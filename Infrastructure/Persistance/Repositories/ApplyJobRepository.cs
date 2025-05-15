@@ -1,3 +1,4 @@
+using System.Linq.Expressions;
 using JobEntry.Application.Repositories;
 using JobEntry.Domain.Entities;
 using JobEntry.Persistance.Contexts;
@@ -27,4 +28,9 @@ public class ApplyJobRepository : IApplyJobRepository
         var values = await _context.ApplyJobs.Include(x=>x.Job).ThenInclude(y=>y.Company).Where(x=>x.Job.CompanyId == id).ToListAsync();
         return values;
     }
+
+    public async Task<ApplyJob> GetByFilterAsync(Expression<Func<ApplyJob, bool>> filter)
+    {
+        return await _context.Set<ApplyJob>().FirstOrDefaultAsync(filter);
+    }   
 }

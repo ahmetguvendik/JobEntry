@@ -1,0 +1,57 @@
+@model List<JobEntry.DTO.JobDTOs.GetJobByCompanyIdDto>
+
+@{
+    ViewData["Title"] = "Sirket";
+    Layout = "~/Views/CompanyLayout/Index.cshtml";
+
+}
+
+   <div class="row">
+                            <div class="col-xl-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Actiginiz Is Ilanlari</h4>
+                                        <div class="table-responsive">
+                                            <table class="table mb-0">
+                                                <thead>
+                                                <tr>
+                                                    <th>#</th>
+                                                    <th>Ad</th>
+                                                    <th>Aciklama</th>
+                                                    <th>Is Tipi</th>
+                                                    <th>Is Turu</th>
+                                                    <th>Konum</th>
+                                                    <th>Yukleme Tarihi</th>
+                                                    <th>Bitis Tarihi</th>
+                                                </tr>
+                                                </thead>
+                                                @foreach (var item in Model)
+                                                {
+                                                    <tbody>
+                                                    <tr>
+                                                        <th scope="row">1</th>
+                                                        <td>@item.Name</td>
+                                                        <td>@item.Description</td>
+                                                        <td>@item.Salary</td>
+                                                        <td>@item.JobStyleName</td>
+                                                        <td>@item.JobTypeName</td>
+                                                        <td>@item.LocationName</td>
+                                                        <td>@item.PublishedTime</td>   
+                                                        <td>@item.EndTime</td>
+                                                    </tr>
+                                                    
+                                                    </tbody>
+                                                }
+                                            </table>
+                                            
+                                        </div>
+    
+                                    </div>
+                                    <!-- end card-body-->
+                                </div>
+                                <!-- end card -->
+                            </div>
+                            <!-- end col -->
+                            
+                            <!-- end col -->
+                        </div>

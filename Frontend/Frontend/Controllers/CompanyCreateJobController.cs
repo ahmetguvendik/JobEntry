@@ -6,12 +6,14 @@ using DTO.LocationDTOs;
 using JobEntry.DTO.CategoryDTOs;
 using JobEntry.DTO.CompanyDTOs;
 using JobEntry.DTO.JobDTOs;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Newtonsoft.Json;
 
 namespace JobEntry.Frontend.Controllers;
 
+[Authorize(Roles = "Company")]
 public class CompanyCreateJobController : Controller
 {
     private readonly IHttpClientFactory _httpClientFactory;

@@ -31,6 +31,13 @@ public class JobController : Controller
         return Ok(value);
     }
     
+    [HttpGet("GetJobByCompanyId/{id}")]
+    public async Task<IActionResult> GetJobByCompanyId(string id)
+    {
+        var value = await _mediator.Send(new GetJobByComponyIdQuery(id));
+        return Ok(value);
+    }
+    
     [HttpGet("GetAllJob")]
     public async Task<IActionResult> GetAllJob()
     {

@@ -106,14 +106,13 @@ public async Task<IActionResult> ApplyJob([FromForm] CreeteApplyJobDto creeteApp
 
     if (response.IsSuccessStatusCode)
     {
-        TempData["SuccessMessage"] = "Başvurunuz başarıyla gönderildi.";
+        TempData["SuccessMessage"] = "Basvurunuz Basariyla Gonderildi";
         return RedirectToAction("JobDetail", new { id = creeteApplyJobDto.JobId });
     }
 
     // Hata varsa detaylı oku
     var responseContent = await response.Content.ReadAsStringAsync();
-    var problemDetails = JsonConvert.DeserializeObject<ValidationProblemDetails>(responseContent);
-    var allErrors = problemDetails?.Errors?.SelectMany(e => e.Value).ToList() ?? new List<string> { "Bilinmeyen bir hata oluştu." };
+    var allErrors = new List<string> { responseContent ?? "Bilinmeyen bir hata oluştu." };
     TempData["ErrorMessages"] = JsonConvert.SerializeObject(allErrors);
 
     return RedirectToAction("JobDetail", new { id = creeteApplyJobDto.JobId });

@@ -57,7 +57,7 @@ namespace JobEntry.Frontend.Controllers
                         return loginResult.Role switch
                         {
                             "Admin" => RedirectToAction("Index", "AdminJob"),
-                            "Company" => RedirectToAction("Index", "About"),
+                            "Company" => RedirectToAction("Index", "CompanyApplyJob"),
                             "Member" => RedirectToAction("Index", "Default"),
                             _ => RedirectToAction("Index", "Login")
                         };

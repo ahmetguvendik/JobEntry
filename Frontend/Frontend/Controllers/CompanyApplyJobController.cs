@@ -1,11 +1,13 @@
 using System.Security.Claims;
 using JobEntry.DTO.ApplyJobDTOs;
 using JobEntry.DTO.CompanyDTOs;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
 namespace JobEntry.Frontend.Controllers;
 
+[Authorize(Roles = "Company")]
 public class CompanyApplyJobController : Controller
 {
     private readonly IHttpClientFactory _httpClientFactory;
