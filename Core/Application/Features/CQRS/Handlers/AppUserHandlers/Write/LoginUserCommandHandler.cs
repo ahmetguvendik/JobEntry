@@ -40,7 +40,8 @@ namespace JobEntry.Application.Features.CQRS.Handlers.AppUserHandlers.Write;
                     {
                         Id = appUser.Id,
                         Username = request.UserName,
-                        Role = "Admin"
+                        Role = "Admin",
+                        Email = request.Email,
                     };
                 }
                 else if (role.Contains("Company"))
@@ -49,7 +50,8 @@ namespace JobEntry.Application.Features.CQRS.Handlers.AppUserHandlers.Write;
                     {
                         Id = appUser.Id,
                         Username = request.UserName,
-                        Role = "Company"
+                        Role = "Company",
+                        Email = request.Email,
                     };
                 }
                 else if (role.Contains("Member"))
@@ -58,6 +60,7 @@ namespace JobEntry.Application.Features.CQRS.Handlers.AppUserHandlers.Write;
                     {
                         Id = appUser.Id,
                         Username = request.UserName,
+                        Email = request.Email,
                         Role = "Member"
                     };
                 }
@@ -68,6 +71,7 @@ namespace JobEntry.Application.Features.CQRS.Handlers.AppUserHandlers.Write;
             {
                 Id = appUser.Id,
                 Username = request.UserName,
+                Email = request.Email,
                 Role = ""
             };
             

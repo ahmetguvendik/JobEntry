@@ -22,5 +22,6 @@ public static class ServiceRegistration
         collection.AddScoped(typeof(IRepository<>), typeof(Repository<>));
         collection.AddScoped(typeof(IJobRepository), typeof(JobRepository));
         collection.AddScoped(typeof(IApplyJobRepository), typeof(ApplyJobRepository));
+        collection.AddScoped(typeof(ICompanyRepository), typeof(CompanyRepository));
     }
 }

@@ -3076,11 +3076,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Frontend/Frontend/Frontend.csproj",
+      "projectUniqueName": "/Users/ahmetguvendik/Desktop/untitled folder/Project/JobEntryProject/Frontend/Frontend/Frontend.csproj",
       "projectName": "Frontend",
-      "projectPath": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Frontend/Frontend/Frontend.csproj",
+      "projectPath": "/Users/ahmetguvendik/Desktop/untitled folder/Project/JobEntryProject/Frontend/Frontend/Frontend.csproj",
       "packagesPath": "/Users/ahmetguvendik/.nuget/packages/",
-      "outputPath": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Frontend/Frontend/obj/",
+      "outputPath": "/Users/ahmetguvendik/Desktop/untitled folder/Project/JobEntryProject/Frontend/Frontend/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ahmetguvendik/.nuget/NuGet/NuGet.Config"
@@ -3095,11 +3095,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Core/Application/Application.csproj": {
-              "projectPath": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Core/Application/Application.csproj"
+            "/Users/ahmetguvendik/Desktop/untitled folder/Project/JobEntryProject/Core/Application/Application.csproj": {
+              "projectPath": "/Users/ahmetguvendik/Desktop/untitled folder/Project/JobEntryProject/Core/Application/Application.csproj"
             },
-            "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Frontend/DTO/DTO.csproj": {
-              "projectPath": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Frontend/DTO/DTO.csproj"
+            "/Users/ahmetguvendik/Desktop/untitled folder/Project/JobEntryProject/Frontend/DTO/DTO.csproj": {
+              "projectPath": "/Users/ahmetguvendik/Desktop/untitled folder/Project/JobEntryProject/Frontend/DTO/DTO.csproj"
             }
           }
         }

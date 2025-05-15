@@ -12,7 +12,7 @@ public class ApplyJobController : Controller
     {
         _httpClientFactory = httpClientFactory;
     }
-    // GET
+
     public async Task<IActionResult> Index(string? userid)
     {
         var userId = User.Identity.IsAuthenticated ? User.FindFirstValue(ClaimTypes.NameIdentifier) : null;

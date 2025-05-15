@@ -9,11 +9,11 @@
         <input type="hidden" asp-for="JobId" />
         <div class="row g-3">
             <div class="col-12 col-sm-6">
-                <input type="text" class="form-control" placeholder="Adiniz ve Soyadiniz" asp-for="NameSurname">
+                <input type="text" name="NameSurname" value="@Model?.NameSurname" class="form-control" placeholder="Ad Soyad" required />
                 
             </div>
             <div class="col-12 col-sm-6">
-                <input type="email" class="form-control" placeholder="Email" asp-for="Email">
+                <input type="email" name="Email" value="@Model?.Email" class="form-control" placeholder="Email" required />
             </div>
             <div class="col-12 col-sm-12">
                 <input type="file" class="form-control bg-white" asp-for="CvFile">

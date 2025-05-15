@@ -1,0 +1,61 @@
+@model List<JobEntry.DTO.ApplyJobDTOs.GetApplyJobByCompanyIdDto>
+
+@{
+    ViewData["Title"] = "Sirket";
+    Layout = "~/Views/CompanyLayout/Index.cshtml";
+
+}
+
+   <div class="row">
+                            <div class="col-xl-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Testimonial</h4>
+                                        <p class="card-subtitle mb-4"> Sistemdeki Testimonial Verileri
+                                        </p>
+                                        <div class="table-responsive">
+                                            <table class="table mb-0">
+                                                <thead>
+                                                <tr>
+                                                    <th>#</th>
+                                                    <th>IsimSoyisim</th>
+                                                    <th>Email</th>
+                                                    <th>Is</th>
+                                                    <th>Aciklama</th>
+                                                    <th>Basvuru Tarihi</th>
+                                                    <th>CV</th>
+                                                </tr>
+                                                </thead>
+                                                @foreach (var item in Model)
+                                                {
+                                                    <tbody>
+                                                    <tr>
+                                                        <th scope="row">1</th>
+                                                        <td>@item.NameSurname</td>
+                                                        <td>@item.Email</td>
+                                                        <td>@item.JobName</td>
+                                                        <td>@item.Website</td>
+                                                        <td>@item.AppliedAt</td>
+                                                        <td> <a href="http://localhost:5214/@item.CvFilePath" target="_blank">CV'yi Görüntüle</a> </td>
+                                                    </tr>
+                                                
+                                                    </tbody>
+                                                }
+                                            </table>
+                                    
+                                             
+                                            
+                                        </div>
+    
+                                    </div>
+                                    <!-- end card-body-->
+                                </div>
+                                <!-- end card -->
+    
+                            </div>
+                            <!-- end col -->
+    
+    
+                       
+                            <!-- end col -->
+                        </div>

@@ -28,7 +28,7 @@ namespace JobEntry.Application.Features.CQRS.Handlers.ApplyJobHandlers.Write
 
             if (request.CvFile != null && request.CvFile.Length > 0)
             {
-                var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads");
+                var uploadsFolder = Path.Combine(_environment.WebRootPath, "uploads");
                 if (string.IsNullOrEmpty(uploadsFolder))
                 {
                     throw new ArgumentNullException(nameof(uploadsFolder), "Dosya yükleme klasörü bulunamadı.");

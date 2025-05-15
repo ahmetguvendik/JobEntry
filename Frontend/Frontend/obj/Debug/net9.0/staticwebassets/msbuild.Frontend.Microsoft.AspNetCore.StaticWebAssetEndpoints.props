@@ -7432,13 +7432,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Frontend.ofw1vuwidc.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-dJGKsV5CzMQZWGx\u002BIhM10vSQAtdePM5ksOkpfJvN1UU="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1077"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022dJGKsV5CzMQZWGx\u002BIhM10vSQAtdePM5ksOkpfJvN1UU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 10:08:14 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1077"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022dJGKsV5CzMQZWGx\u002BIhM10vSQAtdePM5ksOkpfJvN1UU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 14 May 2025 14:09:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Frontend/Frontend.ofw1vuwidc.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Frontend.ofw1vuwidc.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ofw1vuwidc"},{"Name":"integrity","Value":"sha256-dJGKsV5CzMQZWGx\u002BIhM10vSQAtdePM5ksOkpfJvN1UU="},{"Name":"label","Value":"_content/Frontend/Frontend.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1077"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022dJGKsV5CzMQZWGx\u002BIhM10vSQAtdePM5ksOkpfJvN1UU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 10:08:14 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1077"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022dJGKsV5CzMQZWGx\u002BIhM10vSQAtdePM5ksOkpfJvN1UU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 14 May 2025 14:09:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Frontend/job-portal-website-template/404.2uxzqnpjwx.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\job-portal-website-template\404.html'))</AssetFile>

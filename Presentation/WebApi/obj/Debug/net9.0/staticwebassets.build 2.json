@@ -1,0 +1,3833 @@
+{
+  "Version": 1,
+  "Hash": "1Ax08D4pECQyPQIhFeL/diI/GFvAmYlYOUImmq+jkto=",
+  "Source": "WebApi",
+  "BasePath": "_content/WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebApi/wwwroot",
+      "Source": "WebApi",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/032cb858-d7a3-4ab6-af25-bc060a81be0e.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/032cb858-d7a3-4ab6-af25-bc060a81be0e#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/032cb858-d7a3-4ab6-af25-bc060a81be0e.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/1bd80fae-c87b-49db-a679-1a2cc50ac4b0.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/1bd80fae-c87b-49db-a679-1a2cc50ac4b0#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/1bd80fae-c87b-49db-a679-1a2cc50ac4b0.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/1c928648-5f26-4e06-9bd2-967e6d4e711a.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/1c928648-5f26-4e06-9bd2-967e6d4e711a#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/1c928648-5f26-4e06-9bd2-967e6d4e711a.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/1f4a0fa8-6423-4711-9916-cc2a7dd15131.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/1f4a0fa8-6423-4711-9916-cc2a7dd15131#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/1f4a0fa8-6423-4711-9916-cc2a7dd15131.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/23773565-717d-48fa-9e46-e8b619876f30.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/23773565-717d-48fa-9e46-e8b619876f30#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/23773565-717d-48fa-9e46-e8b619876f30.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/2e6022ea-27b6-4d83-8b68-fa9fd7ee8679.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/2e6022ea-27b6-4d83-8b68-fa9fd7ee8679#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/2e6022ea-27b6-4d83-8b68-fa9fd7ee8679.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/32e88beb-bcdf-49be-bb25-2b25bf38b39a.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/32e88beb-bcdf-49be-bb25-2b25bf38b39a#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/32e88beb-bcdf-49be-bb25-2b25bf38b39a.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/3a583052-c0c3-4fbe-8d2b-e409e9d13b8d.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/3a583052-c0c3-4fbe-8d2b-e409e9d13b8d#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/3a583052-c0c3-4fbe-8d2b-e409e9d13b8d.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/3a99496d-3711-4e48-8de8-ef65914c81d1.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/3a99496d-3711-4e48-8de8-ef65914c81d1#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/3a99496d-3711-4e48-8de8-ef65914c81d1.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/3e9e4bb6-8239-41aa-b8b7-3e42b17a155e.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/3e9e4bb6-8239-41aa-b8b7-3e42b17a155e#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/3e9e4bb6-8239-41aa-b8b7-3e42b17a155e.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/4d9d4032-b44a-4648-8ae8-c1ceeef86d0d.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/4d9d4032-b44a-4648-8ae8-c1ceeef86d0d#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/4d9d4032-b44a-4648-8ae8-c1ceeef86d0d.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/5429a825-1ce3-4532-946d-87384bcf4d9b.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/5429a825-1ce3-4532-946d-87384bcf4d9b#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/5429a825-1ce3-4532-946d-87384bcf4d9b.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/5bde33bc-a193-4ffe-92e7-cbbef46d28d1.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/5bde33bc-a193-4ffe-92e7-cbbef46d28d1#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/5bde33bc-a193-4ffe-92e7-cbbef46d28d1.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/5cbc6e98-4664-426f-923d-f68130331060.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/5cbc6e98-4664-426f-923d-f68130331060#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/5cbc6e98-4664-426f-923d-f68130331060.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/5d131744-d8de-46a3-a7b3-1dce8f29278c.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/5d131744-d8de-46a3-a7b3-1dce8f29278c#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/5d131744-d8de-46a3-a7b3-1dce8f29278c.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/6ce78f76-46ec-4abd-87c3-4711eb08203c.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/6ce78f76-46ec-4abd-87c3-4711eb08203c#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/6ce78f76-46ec-4abd-87c3-4711eb08203c.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/6f94bb55-4484-4a10-b7cd-e7f3cf4e7ed0.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/6f94bb55-4484-4a10-b7cd-e7f3cf4e7ed0#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/6f94bb55-4484-4a10-b7cd-e7f3cf4e7ed0.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/7414127b-d767-47ca-afbd-c6dea04905b7.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/7414127b-d767-47ca-afbd-c6dea04905b7#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/7414127b-d767-47ca-afbd-c6dea04905b7.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/7c6b764b-5502-45e0-9da1-b0fcffdbb44c.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/7c6b764b-5502-45e0-9da1-b0fcffdbb44c#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/7c6b764b-5502-45e0-9da1-b0fcffdbb44c.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/938dd1fa-618b-4ca7-a764-012e09cf99a8.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/938dd1fa-618b-4ca7-a764-012e09cf99a8#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/938dd1fa-618b-4ca7-a764-012e09cf99a8.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/97001737-1413-40c1-9500-3a822b0ed05b.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/97001737-1413-40c1-9500-3a822b0ed05b#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/97001737-1413-40c1-9500-3a822b0ed05b.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/9b2844bb-c78b-4a66-a05c-c01f0e9b160e.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/9b2844bb-c78b-4a66-a05c-c01f0e9b160e#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/9b2844bb-c78b-4a66-a05c-c01f0e9b160e.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/a6489dee-0a1f-4ea5-ae14-504e45ef6a63.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/a6489dee-0a1f-4ea5-ae14-504e45ef6a63#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/a6489dee-0a1f-4ea5-ae14-504e45ef6a63.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/a902a1ea-24a6-4960-89d1-ff5c849c1e7e.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/a902a1ea-24a6-4960-89d1-ff5c849c1e7e#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/a902a1ea-24a6-4960-89d1-ff5c849c1e7e.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/c98aa3bb-1fb1-447e-8730-184c80a9addc.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/c98aa3bb-1fb1-447e-8730-184c80a9addc#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/c98aa3bb-1fb1-447e-8730-184c80a9addc.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/cc184540-4ebc-46ab-bdf1-c85e7b49b43c.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/cc184540-4ebc-46ab-bdf1-c85e7b49b43c#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/cc184540-4ebc-46ab-bdf1-c85e7b49b43c.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/d002c732-1b84-429d-8e96-397b4c077df8.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/d002c732-1b84-429d-8e96-397b4c077df8#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/d002c732-1b84-429d-8e96-397b4c077df8.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/d0100564-0817-4916-b841-0433837360a1.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/d0100564-0817-4916-b841-0433837360a1#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/d0100564-0817-4916-b841-0433837360a1.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/d8cfc638-9b1a-4809-9a2d-775c17fd7dd9.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/d8cfc638-9b1a-4809-9a2d-775c17fd7dd9#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/d8cfc638-9b1a-4809-9a2d-775c17fd7dd9.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/db40dccf-cc17-4c66-9665-5605250b94df.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/db40dccf-cc17-4c66-9665-5605250b94df#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/db40dccf-cc17-4c66-9665-5605250b94df.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/dc1d2a83-894d-4e8f-8ab3-943413089c71.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/dc1d2a83-894d-4e8f-8ab3-943413089c71#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/dc1d2a83-894d-4e8f-8ab3-943413089c71.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/de4b2ab0-b2bb-46ad-993e-3842d1a0252f.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/de4b2ab0-b2bb-46ad-993e-3842d1a0252f#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/de4b2ab0-b2bb-46ad-993e-3842d1a0252f.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/df615159-cade-47f6-871d-187a46f29dc2.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/df615159-cade-47f6-871d-187a46f29dc2#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/df615159-cade-47f6-871d-187a46f29dc2.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/e6dc22d8-852d-4dc0-beae-975d231fb337.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/e6dc22d8-852d-4dc0-beae-975d231fb337#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/e6dc22d8-852d-4dc0-beae-975d231fb337.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/eda26cda-2779-4974-a7b3-c68dbf7d15cd.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/eda26cda-2779-4974-a7b3-c68dbf7d15cd#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/eda26cda-2779-4974-a7b3-c68dbf7d15cd.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/eddc41ad-4bf2-43fc-87b7-773441156628.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/eddc41ad-4bf2-43fc-87b7-773441156628#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/eddc41ad-4bf2-43fc-87b7-773441156628.pdf"
+    },
+    {
+      "Identity": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/f3c5fe04-4551-432a-ad25-4c84c9241e59.pdf",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "uploads/f3c5fe04-4551-432a-ad25-4c84c9241e59#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h7oini4ea",
+      "Integrity": "3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/f3c5fe04-4551-432a-ad25-4c84c9241e59.pdf"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "uploads/032cb858-d7a3-4ab6-af25-bc060a81be0e.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/032cb858-d7a3-4ab6-af25-bc060a81be0e.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:13:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/032cb858-d7a3-4ab6-af25-bc060a81be0e.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/032cb858-d7a3-4ab6-af25-bc060a81be0e.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/032cb858-d7a3-4ab6-af25-bc060a81be0e.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:13:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/1bd80fae-c87b-49db-a679-1a2cc50ac4b0.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/1bd80fae-c87b-49db-a679-1a2cc50ac4b0.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:05:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/1bd80fae-c87b-49db-a679-1a2cc50ac4b0.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/1bd80fae-c87b-49db-a679-1a2cc50ac4b0.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/1bd80fae-c87b-49db-a679-1a2cc50ac4b0.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:05:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/1c928648-5f26-4e06-9bd2-967e6d4e711a.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/1c928648-5f26-4e06-9bd2-967e6d4e711a.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:27:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/1c928648-5f26-4e06-9bd2-967e6d4e711a.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/1c928648-5f26-4e06-9bd2-967e6d4e711a.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/1c928648-5f26-4e06-9bd2-967e6d4e711a.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:27:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/1f4a0fa8-6423-4711-9916-cc2a7dd15131.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/1f4a0fa8-6423-4711-9916-cc2a7dd15131.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:47:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/1f4a0fa8-6423-4711-9916-cc2a7dd15131.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/1f4a0fa8-6423-4711-9916-cc2a7dd15131.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/1f4a0fa8-6423-4711-9916-cc2a7dd15131.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:47:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/23773565-717d-48fa-9e46-e8b619876f30.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/23773565-717d-48fa-9e46-e8b619876f30.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:47:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/23773565-717d-48fa-9e46-e8b619876f30.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/23773565-717d-48fa-9e46-e8b619876f30.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/23773565-717d-48fa-9e46-e8b619876f30.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:47:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/2e6022ea-27b6-4d83-8b68-fa9fd7ee8679.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/2e6022ea-27b6-4d83-8b68-fa9fd7ee8679.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:06:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/2e6022ea-27b6-4d83-8b68-fa9fd7ee8679.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/2e6022ea-27b6-4d83-8b68-fa9fd7ee8679.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/2e6022ea-27b6-4d83-8b68-fa9fd7ee8679.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:06:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/32e88beb-bcdf-49be-bb25-2b25bf38b39a.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/32e88beb-bcdf-49be-bb25-2b25bf38b39a.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:02:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/32e88beb-bcdf-49be-bb25-2b25bf38b39a.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/32e88beb-bcdf-49be-bb25-2b25bf38b39a.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/32e88beb-bcdf-49be-bb25-2b25bf38b39a.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:02:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/3a583052-c0c3-4fbe-8d2b-e409e9d13b8d.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/3a583052-c0c3-4fbe-8d2b-e409e9d13b8d.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:17:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/3a583052-c0c3-4fbe-8d2b-e409e9d13b8d.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/3a583052-c0c3-4fbe-8d2b-e409e9d13b8d.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/3a583052-c0c3-4fbe-8d2b-e409e9d13b8d.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:17:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/3a99496d-3711-4e48-8de8-ef65914c81d1.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/3a99496d-3711-4e48-8de8-ef65914c81d1.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:22:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/3a99496d-3711-4e48-8de8-ef65914c81d1.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/3a99496d-3711-4e48-8de8-ef65914c81d1.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/3a99496d-3711-4e48-8de8-ef65914c81d1.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:22:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/3e9e4bb6-8239-41aa-b8b7-3e42b17a155e.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/3e9e4bb6-8239-41aa-b8b7-3e42b17a155e.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 10:37:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/3e9e4bb6-8239-41aa-b8b7-3e42b17a155e.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/3e9e4bb6-8239-41aa-b8b7-3e42b17a155e.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/3e9e4bb6-8239-41aa-b8b7-3e42b17a155e.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 10:37:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/4d9d4032-b44a-4648-8ae8-c1ceeef86d0d.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/4d9d4032-b44a-4648-8ae8-c1ceeef86d0d.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:04:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/4d9d4032-b44a-4648-8ae8-c1ceeef86d0d.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/4d9d4032-b44a-4648-8ae8-c1ceeef86d0d.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/4d9d4032-b44a-4648-8ae8-c1ceeef86d0d.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:04:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5429a825-1ce3-4532-946d-87384bcf4d9b.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/5429a825-1ce3-4532-946d-87384bcf4d9b.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:48:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/5429a825-1ce3-4532-946d-87384bcf4d9b.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5429a825-1ce3-4532-946d-87384bcf4d9b.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/5429a825-1ce3-4532-946d-87384bcf4d9b.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:48:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5bde33bc-a193-4ffe-92e7-cbbef46d28d1.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/5bde33bc-a193-4ffe-92e7-cbbef46d28d1.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:11:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/5bde33bc-a193-4ffe-92e7-cbbef46d28d1.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5bde33bc-a193-4ffe-92e7-cbbef46d28d1.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/5bde33bc-a193-4ffe-92e7-cbbef46d28d1.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:11:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5cbc6e98-4664-426f-923d-f68130331060.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/5cbc6e98-4664-426f-923d-f68130331060.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:02:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/5cbc6e98-4664-426f-923d-f68130331060.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5cbc6e98-4664-426f-923d-f68130331060.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/5cbc6e98-4664-426f-923d-f68130331060.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:02:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5d131744-d8de-46a3-a7b3-1dce8f29278c.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/5d131744-d8de-46a3-a7b3-1dce8f29278c.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:27:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/5d131744-d8de-46a3-a7b3-1dce8f29278c.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5d131744-d8de-46a3-a7b3-1dce8f29278c.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/5d131744-d8de-46a3-a7b3-1dce8f29278c.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:27:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/6ce78f76-46ec-4abd-87c3-4711eb08203c.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/6ce78f76-46ec-4abd-87c3-4711eb08203c.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:01:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/6ce78f76-46ec-4abd-87c3-4711eb08203c.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/6ce78f76-46ec-4abd-87c3-4711eb08203c.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/6ce78f76-46ec-4abd-87c3-4711eb08203c.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:01:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/6f94bb55-4484-4a10-b7cd-e7f3cf4e7ed0.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/6f94bb55-4484-4a10-b7cd-e7f3cf4e7ed0.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:02:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/6f94bb55-4484-4a10-b7cd-e7f3cf4e7ed0.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/6f94bb55-4484-4a10-b7cd-e7f3cf4e7ed0.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/6f94bb55-4484-4a10-b7cd-e7f3cf4e7ed0.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:02:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/7414127b-d767-47ca-afbd-c6dea04905b7.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/7414127b-d767-47ca-afbd-c6dea04905b7.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:13:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/7414127b-d767-47ca-afbd-c6dea04905b7.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/7414127b-d767-47ca-afbd-c6dea04905b7.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/7414127b-d767-47ca-afbd-c6dea04905b7.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:13:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/7c6b764b-5502-45e0-9da1-b0fcffdbb44c.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/7c6b764b-5502-45e0-9da1-b0fcffdbb44c.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:02:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/7c6b764b-5502-45e0-9da1-b0fcffdbb44c.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/7c6b764b-5502-45e0-9da1-b0fcffdbb44c.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/7c6b764b-5502-45e0-9da1-b0fcffdbb44c.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:02:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/938dd1fa-618b-4ca7-a764-012e09cf99a8.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/938dd1fa-618b-4ca7-a764-012e09cf99a8.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:04:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/938dd1fa-618b-4ca7-a764-012e09cf99a8.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/938dd1fa-618b-4ca7-a764-012e09cf99a8.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/938dd1fa-618b-4ca7-a764-012e09cf99a8.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:04:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/97001737-1413-40c1-9500-3a822b0ed05b.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/97001737-1413-40c1-9500-3a822b0ed05b.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:47:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/97001737-1413-40c1-9500-3a822b0ed05b.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/97001737-1413-40c1-9500-3a822b0ed05b.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/97001737-1413-40c1-9500-3a822b0ed05b.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:47:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/9b2844bb-c78b-4a66-a05c-c01f0e9b160e.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/9b2844bb-c78b-4a66-a05c-c01f0e9b160e.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:17:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/9b2844bb-c78b-4a66-a05c-c01f0e9b160e.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/9b2844bb-c78b-4a66-a05c-c01f0e9b160e.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/9b2844bb-c78b-4a66-a05c-c01f0e9b160e.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:17:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/a6489dee-0a1f-4ea5-ae14-504e45ef6a63.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/a6489dee-0a1f-4ea5-ae14-504e45ef6a63.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:05:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/a6489dee-0a1f-4ea5-ae14-504e45ef6a63.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/a6489dee-0a1f-4ea5-ae14-504e45ef6a63.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/a6489dee-0a1f-4ea5-ae14-504e45ef6a63.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:05:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/a902a1ea-24a6-4960-89d1-ff5c849c1e7e.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/a902a1ea-24a6-4960-89d1-ff5c849c1e7e.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 09:41:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/a902a1ea-24a6-4960-89d1-ff5c849c1e7e.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/a902a1ea-24a6-4960-89d1-ff5c849c1e7e.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/a902a1ea-24a6-4960-89d1-ff5c849c1e7e.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 09:41:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/c98aa3bb-1fb1-447e-8730-184c80a9addc.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/c98aa3bb-1fb1-447e-8730-184c80a9addc.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:22:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/c98aa3bb-1fb1-447e-8730-184c80a9addc.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/c98aa3bb-1fb1-447e-8730-184c80a9addc.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/c98aa3bb-1fb1-447e-8730-184c80a9addc.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:22:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/cc184540-4ebc-46ab-bdf1-c85e7b49b43c.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/cc184540-4ebc-46ab-bdf1-c85e7b49b43c.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 09:43:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/cc184540-4ebc-46ab-bdf1-c85e7b49b43c.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/cc184540-4ebc-46ab-bdf1-c85e7b49b43c.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/cc184540-4ebc-46ab-bdf1-c85e7b49b43c.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 09:43:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/d002c732-1b84-429d-8e96-397b4c077df8.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/d002c732-1b84-429d-8e96-397b4c077df8.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:06:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/d002c732-1b84-429d-8e96-397b4c077df8.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/d002c732-1b84-429d-8e96-397b4c077df8.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/d002c732-1b84-429d-8e96-397b4c077df8.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:06:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/d0100564-0817-4916-b841-0433837360a1.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/d0100564-0817-4916-b841-0433837360a1.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:11:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/d0100564-0817-4916-b841-0433837360a1.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/d0100564-0817-4916-b841-0433837360a1.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/d0100564-0817-4916-b841-0433837360a1.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:11:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/d8cfc638-9b1a-4809-9a2d-775c17fd7dd9.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/d8cfc638-9b1a-4809-9a2d-775c17fd7dd9.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 10:37:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/d8cfc638-9b1a-4809-9a2d-775c17fd7dd9.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/d8cfc638-9b1a-4809-9a2d-775c17fd7dd9.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/d8cfc638-9b1a-4809-9a2d-775c17fd7dd9.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 10:37:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/db40dccf-cc17-4c66-9665-5605250b94df.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/db40dccf-cc17-4c66-9665-5605250b94df.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:31:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/db40dccf-cc17-4c66-9665-5605250b94df.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/db40dccf-cc17-4c66-9665-5605250b94df.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/db40dccf-cc17-4c66-9665-5605250b94df.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:31:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/dc1d2a83-894d-4e8f-8ab3-943413089c71.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/dc1d2a83-894d-4e8f-8ab3-943413089c71.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:31:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/dc1d2a83-894d-4e8f-8ab3-943413089c71.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/dc1d2a83-894d-4e8f-8ab3-943413089c71.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/dc1d2a83-894d-4e8f-8ab3-943413089c71.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:31:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/de4b2ab0-b2bb-46ad-993e-3842d1a0252f.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/de4b2ab0-b2bb-46ad-993e-3842d1a0252f.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:30:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/de4b2ab0-b2bb-46ad-993e-3842d1a0252f.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/de4b2ab0-b2bb-46ad-993e-3842d1a0252f.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/de4b2ab0-b2bb-46ad-993e-3842d1a0252f.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:30:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/df615159-cade-47f6-871d-187a46f29dc2.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/df615159-cade-47f6-871d-187a46f29dc2.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 09:43:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/df615159-cade-47f6-871d-187a46f29dc2.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/df615159-cade-47f6-871d-187a46f29dc2.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/df615159-cade-47f6-871d-187a46f29dc2.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 09:43:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/e6dc22d8-852d-4dc0-beae-975d231fb337.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/e6dc22d8-852d-4dc0-beae-975d231fb337.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:47:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/e6dc22d8-852d-4dc0-beae-975d231fb337.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/e6dc22d8-852d-4dc0-beae-975d231fb337.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/e6dc22d8-852d-4dc0-beae-975d231fb337.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:47:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/eda26cda-2779-4974-a7b3-c68dbf7d15cd.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/eda26cda-2779-4974-a7b3-c68dbf7d15cd.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:30:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/eda26cda-2779-4974-a7b3-c68dbf7d15cd.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/eda26cda-2779-4974-a7b3-c68dbf7d15cd.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/eda26cda-2779-4974-a7b3-c68dbf7d15cd.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:30:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/eddc41ad-4bf2-43fc-87b7-773441156628.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/eddc41ad-4bf2-43fc-87b7-773441156628.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:01:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/eddc41ad-4bf2-43fc-87b7-773441156628.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/eddc41ad-4bf2-43fc-87b7-773441156628.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/eddc41ad-4bf2-43fc-87b7-773441156628.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:01:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/f3c5fe04-4551-432a-ad25-4c84c9241e59.9h7oini4ea.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/f3c5fe04-4551-432a-ad25-4c84c9241e59.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:48:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h7oini4ea"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/f3c5fe04-4551-432a-ad25-4c84c9241e59.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/f3c5fe04-4551-432a-ad25-4c84c9241e59.pdf",
+      "AssetFile": "/Users/ahmetguvendik/Desktop/Project/JobEntryProject/Presentation/WebApi/wwwroot/uploads/f3c5fe04-4551-432a-ad25-4c84c9241e59.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:48:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WmBkR5LSlphUNtysq7zlsoL7en0LMn6sxtC4jjqzk8="
+        }
+      ]
+    }
+  ]
+}

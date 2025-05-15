@@ -13,4 +13,5 @@ public class AppUser: IdentityUser<string>
     }
 
     public List<ApplyJob> ApplyJobs { get; set; }
+    public List<Company> Companies { get; set; }    
 }

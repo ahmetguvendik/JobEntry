@@ -247,6 +247,9 @@ namespace JobEntry.Persistance.Migrations
                     b.Property<string>("Id")
                         .HasColumnType("text");
 
+                    b.Property<string>("AppUserId")
+                        .HasColumnType("text");
+
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("text");
@@ -260,6 +263,8 @@ namespace JobEntry.Persistance.Migrations
                         .HasColumnType("text");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
 
                     b.ToTable("Companies");
                 });
@@ -538,6 +543,15 @@ namespace JobEntry.Persistance.Migrations
                     b.Navigation("Job");
                 });
 
+            modelBuilder.Entity("JobEntry.Domain.Entities.Company", b =>
+                {
+                    b.HasOne("JobEntry.Domain.Entities.AppUser", "AppUser")
+                        .WithMany("Companies")
+                        .HasForeignKey("AppUserId");
+
+                    b.Navigation("AppUser");
+                });
+
             modelBuilder.Entity("JobEntry.Domain.Entities.Job", b =>
                 {
                     b.HasOne("JobEntry.Domain.Entities.Category", "Category")
@@ -635,6 +649,8 @@ namespace JobEntry.Persistance.Migrations
             modelBuilder.Entity("JobEntry.Domain.Entities.AppUser", b =>
                 {
                     b.Navigation("ApplyJobs");
+
+                    b.Navigation("Companies");
                 });
 
             modelBuilder.Entity("JobEntry.Domain.Entities.Category", b =>

@@ -32,6 +32,13 @@ public class CompanyController : Controller
         return Ok(value);
     }
     
+    // GET api/values/5
+    [HttpGet("GetCompanyByUserId/{id}")]
+    public async Task<IActionResult> GetCompanyByUserId(string id)
+    {
+        var value = await _mediator.Send(new GetCompanyByUserIdQuery(id));
+        return Ok(value);
+    }
     // POST api/values
     [HttpPost]
     public async Task<IActionResult> Post(CreateCompanyCommand command)

@@ -1,17 +1,26 @@
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllOrigins", policy =>
+    {
+        policy.AllowAnyOrigin()  // Tüm origin'lere izin verir
+            .AllowAnyMethod()  // Tüm HTTP yöntemlerine (GET, POST vb.) izin verir
+            .AllowAnyHeader(); // Tüm başlıklara izin verir
+    });
+});
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddHttpClient();
 
-// 🔐 Authentication ekle
 builder.Services.AddAuthentication("MyCookieAuth")
     .AddCookie("MyCookieAuth", options =>
     {
-        options.LoginPath = "/Login/Index"; // Giriş sayfası
-        options.AccessDeniedPath = "/Login/AccessDenied"; // Yetkisiz erişimde yönlendirilecek sayfa
+        options.LoginPath = "/Login/Index";
+        options.AccessDeniedPath = "/Login/AccessDenied";
         options.SlidingExpiration = true;
-        options.ExpireTimeSpan = TimeSpan.FromMinutes(60); // Cookie'nin ne kadar süre geçerli olduğunu belirler.
+        options.ExpireTimeSpan = TimeSpan.FromMinutes(60);
     });
 
 builder.Services.AddAuthorization();
@@ -25,18 +34,17 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-//app.UseHttpsRedirection();
-app.UseRouting();
+app.UseHttpsRedirection();
 
-// 🔐 Bu sırayla çağırılmalı
+// 📂 Statik dosyalar için mutlaka burada olmalı
+app.UseRouting();
+app.UseStaticFiles();
+app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.MapStaticAssets();
-
 app.MapControllerRoute(
-        name: "default",
-        pattern: "{controller=Default}/{action=Index}/{id?}")
-    .WithStaticAssets();
+    name: "default",
+    pattern: "{controller=Default}/{action=Index}/{id?}");
 
 app.Run();

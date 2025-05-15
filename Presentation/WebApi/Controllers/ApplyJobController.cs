@@ -55,5 +55,12 @@ namespace JobEntry.WebAPI.Controllers
 
             return Ok("Başvurunuz alındı.");
         }
+        
+        [HttpGet("GetApplyJobByICategoryId/{id}")]
+        public async Task<IActionResult> GetApplyJobByICategoryId(string id)
+        {
+            var value = await _mediator.Send(new GetApplyJobbyCompanyIdQuery(id));
+            return Ok(value);
+        }
     }
 }   
