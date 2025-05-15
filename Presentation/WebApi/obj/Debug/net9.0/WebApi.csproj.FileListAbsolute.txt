@@ -346,3 +346,6 @@
 /Users/ahmetguvendik/Desktop/untitled folder/Project/JobEntryProject/Presentation/WebApi/obj/Debug/net9.0/WebApi.pdb
 /Users/ahmetguvendik/Desktop/untitled folder/Project/JobEntryProject/Presentation/WebApi/obj/Debug/net9.0/WebApi.genruntimeconfig.cache
 /Users/ahmetguvendik/Desktop/untitled folder/Project/JobEntryProject/Presentation/WebApi/obj/Debug/net9.0/ref/WebApi.dll
+/Users/ahmetguvendik/Desktop/untitled folder/Project/JobEntryProject/Presentation/WebApi/bin/Debug/net9.0/BouncyCastle.Cryptography.dll
+/Users/ahmetguvendik/Desktop/untitled folder/Project/JobEntryProject/Presentation/WebApi/bin/Debug/net9.0/MailKit.dll
+/Users/ahmetguvendik/Desktop/untitled folder/Project/JobEntryProject/Presentation/WebApi/bin/Debug/net9.0/MimeKit.dll

@@ -1,3 +1,7 @@
+using JobEntry.Application.Services;
+using JobEntry.Persistance;
+using JobEntry.Persistance.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddCors(options =>
@@ -14,6 +18,7 @@ builder.Services.AddCors(options =>
 builder.Services.AddControllersWithViews();
 builder.Services.AddHttpClient();
 
+builder.Services.AddScoped(typeof(IEmailService), typeof(EmailService));
 builder.Services.AddAuthentication("MyCookieAuth")
     .AddCookie("MyCookieAuth", options =>
     {
@@ -24,6 +29,7 @@ builder.Services.AddAuthentication("MyCookieAuth")
     });
 
 builder.Services.AddAuthorization();
+
 
 var app = builder.Build();
 

@@ -884,3 +884,10 @@
 /Users/ahmetguvendik/Desktop/untitled folder/Project/JobEntryProject/Frontend/Frontend/obj/Debug/net9.0/Frontend.pdb
 /Users/ahmetguvendik/Desktop/untitled folder/Project/JobEntryProject/Frontend/Frontend/obj/Debug/net9.0/Frontend.genruntimeconfig.cache
 /Users/ahmetguvendik/Desktop/untitled folder/Project/JobEntryProject/Frontend/Frontend/obj/Debug/net9.0/ref/Frontend.dll
+/Users/ahmetguvendik/Desktop/untitled folder/Project/JobEntryProject/Frontend/Frontend/bin/Debug/net9.0/BouncyCastle.Cryptography.dll
+/Users/ahmetguvendik/Desktop/untitled folder/Project/JobEntryProject/Frontend/Frontend/bin/Debug/net9.0/MailKit.dll
+/Users/ahmetguvendik/Desktop/untitled folder/Project/JobEntryProject/Frontend/Frontend/bin/Debug/net9.0/MimeKit.dll
+/Users/ahmetguvendik/Desktop/untitled folder/Project/JobEntryProject/Frontend/Frontend/bin/Debug/net9.0/Npgsql.dll
+/Users/ahmetguvendik/Desktop/untitled folder/Project/JobEntryProject/Frontend/Frontend/bin/Debug/net9.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Users/ahmetguvendik/Desktop/untitled folder/Project/JobEntryProject/Frontend/Frontend/bin/Debug/net9.0/Persistance.dll
+/Users/ahmetguvendik/Desktop/untitled folder/Project/JobEntryProject/Frontend/Frontend/bin/Debug/net9.0/Persistance.pdb

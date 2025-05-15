@@ -25,6 +25,7 @@ public class GetApplyJobbyCompanyIdQueryHandler : IRequestHandler<GetApplyJobbyC
             JobName = x.Job.Name,
             NameSurname = x.NameSurname,
             Website = x.Website,
+            CompanyName = x.Job.Company.Name,
         }).ToList();
     }
 }

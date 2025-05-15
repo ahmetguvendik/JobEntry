@@ -62,5 +62,13 @@ namespace JobEntry.WebAPI.Controllers
             var value = await _mediator.Send(new GetApplyJobbyCompanyIdQuery(id));
             return Ok(value);
         }
+        
+        [HttpPut]
+        public async Task<IActionResult> Put(UpdateApplyJobCommand command)
+        {
+            await _mediator.Send(command);
+            return Ok("Guncellendi");   
+        }
+
     }
 }   

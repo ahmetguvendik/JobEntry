@@ -36,7 +36,11 @@
                                                         <td>@item.JobName</td>
                                                         <td>@item.Website</td>
                                                         <td>@item.AppliedAt</td>
-                                                        <td> <a href="http://localhost:5214/@item.CvFilePath" target="_blank">CV'yi Görüntüle</a> </td>
+                                                        <td>
+                                                            <a href="@Url.Action("SendMailAndOpenCV", "CompanyApplyJob", new { cvPath = item.CvFilePath, email = item.Email, item.JobName, item.CompanyName, item.Id})" target="_blank">CV'yi Görüntüle</a>
+                                                        </td>
+
+
                                                     </tr>
                                                 
                                                     </tbody>

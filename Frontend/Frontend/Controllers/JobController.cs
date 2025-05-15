@@ -1,7 +1,9 @@
 using System.Net.Http.Headers;
 using System.Security.Claims;
+using JobEntry.Application.Services;
 using JobEntry.DTO.ApplyJobDTOs;
 using JobEntry.DTO.JobDTOs;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
@@ -10,10 +12,13 @@ namespace JobEntry.Frontend.Controllers;
 public class JobController : Controller
 {
     private readonly IHttpClientFactory _httpClientFactory;
+    private readonly IEmailService  _emailService;
+     
 
-    public JobController( IHttpClientFactory httpClientFactory)
+    public JobController( IHttpClientFactory httpClientFactory, IEmailService emailService)
     {
          _httpClientFactory = httpClientFactory;
+         _emailService = emailService;
     }
     public async Task<IActionResult> Index(int page = 1)
     {
@@ -107,6 +112,7 @@ public async Task<IActionResult> ApplyJob([FromForm] CreeteApplyJobDto creeteApp
     if (response.IsSuccessStatusCode)
     {
         TempData["SuccessMessage"] = "Basvurunuz Basariyla Gonderildi";
+        await _emailService.SendApplyAppEmailAsync(creeteApplyJobDto.Email,"İş Başvurunuz Alınmış Olup İlgili Şirkete Yollanmıştır. Bir Gelişme Olması Durumunda Sizinle İletişime Geçeceklerdir. Kariyerinizde Başarılar Dilerim :)");
         return RedirectToAction("JobDetail", new { id = creeteApplyJobDto.JobId });
     }
 
@@ -117,7 +123,5 @@ public async Task<IActionResult> ApplyJob([FromForm] CreeteApplyJobDto creeteApp
 
     return RedirectToAction("JobDetail", new { id = creeteApplyJobDto.JobId });
 }
-
-
 
 }

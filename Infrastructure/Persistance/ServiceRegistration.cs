@@ -1,8 +1,10 @@
 using System;
 using JobEntry.Application.Repositories;
+using JobEntry.Application.Services;
 using JobEntry.Domain.Entities;
 using JobEntry.Persistance.Contexts;
 using JobEntry.Persistance.Repositories;
+using JobEntry.Persistance.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
@@ -23,5 +25,6 @@ public static class ServiceRegistration
         collection.AddScoped(typeof(IJobRepository), typeof(JobRepository));
         collection.AddScoped(typeof(IApplyJobRepository), typeof(ApplyJobRepository));
         collection.AddScoped(typeof(ICompanyRepository), typeof(CompanyRepository));
+        collection.AddScoped(typeof(IEmailService), typeof(EmailService));
     }
 }
