@@ -68,4 +68,15 @@ public class JobRepository : IJobRepository
             .Include(x => x.Category).Where(x => x.CategoryId == id).ToListAsync();
         return jobs;
     }
+
+    public async Task<List<Job>> GetJobByIdCategoryAndLocationIdAsync(string categoryid, string locationid)
+    {
+        var jobs = await _context.Jobs
+            .Include(x => x.Company)
+            .Include(x => x.Location)
+            .Include(x => x.JobType)
+            .Include(x => x.JobStyle)
+            .Include(x => x.Category).Where(x => x.CategoryId == categoryid && x.LocationId == locationid).ToListAsync();
+        return jobs;
+    }
 }
