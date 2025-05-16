@@ -51,6 +51,15 @@ public class JobController : Controller
         var value = await _mediator.Send(new Get5JobWithPropertyQuery());
         return Ok(value);
     }
+    
+    [HttpGet("GetJobByIdCategoryId")]
+    public async Task<IActionResult> GetJobByIdCategoryId(string id)
+    {
+        var value = await _mediator.Send(new GetJobByIdCategoryIdQuery(id));
+        return Ok(value);
+    }
+    
+    
     // GET api/values/5
     [HttpGet("{id}")]
     public async Task<IActionResult> Get(string id)

@@ -10,4 +10,5 @@ public interface IJobRepository
     Task<List<Job>> GetAllJobWithPropertyAsync(); 
     Task<Job> GetJobByIdWithPropertyAsync(string id);       
     Task<List<Job>> GetJobByIdCompanyIdAsync(string id);      
+    Task<List<Job>> GetJobByIdCategoryIdAsync(string id);       
 }
